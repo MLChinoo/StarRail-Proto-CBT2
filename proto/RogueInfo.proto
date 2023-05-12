@@ -1,13 +1,13 @@
 syntax = "proto3";
 
-import RogueStatus.proto;
-import RogueLevel.proto;
-import RogueRoom.proto;
-import RogueBuff.proto;
-import RogueBuffSelectInfo.proto;
-import RogueBlessInfo.proto;
-import RogueAppraisalInfo.proto;
-import RogueQuest.proto;
+import "RogueStatus.proto";
+import "RogueLevel.proto";
+import "RogueRoom.proto";
+import "RogueBuff.proto";
+import "RogueBuffSelectInfo.proto";
+import "RogueBlessInfo.proto";
+import "RogueAppraisalInfo.proto";
+import "RogueQuest.proto";
 
 message RogueInfo {
     RogueStatus status = 1;

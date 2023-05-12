@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import RogueRoom.proto;
+import "RogueRoom.proto";
 
 message RogueLevel {
     uint32 level_id = 1;

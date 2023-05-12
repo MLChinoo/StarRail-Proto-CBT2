@@ -2,10 +2,10 @@ syntax = "proto3";
 
 
 enum CmdDialogueType {
-    CmdDialogueTypeNone = "0";
-    CmdGetDialogueEventDataCsReq = "2401";
-    CmdGetDialogueEventDataScRsp = "2402";
-    CmdSelectDialogueEventCsReq = "2403";
-    CmdSelectDialogueEventScRsp = "2404";
-    CmdSyncDialogueEventDataScNotify = "2405";
+    CmdDialogueTypeNone = 0;
+    CmdGetDialogueEventDataCsReq = 2401;
+    CmdGetDialogueEventDataScRsp = 2402;
+    CmdSelectDialogueEventCsReq = 2403;
+    CmdSelectDialogueEventScRsp = 2404;
+    CmdSyncDialogueEventDataScNotify = 2405;
 }

@@ -2,7 +2,7 @@ syntax = "proto3";
 
 
 enum ProductType {
-    PRODUCT_NONE = "0";
-    PRODUCT_NORMAL = "1";
-    PRODUCT_LIMIT = "2";
+    PRODUCT_NONE = 0;
+    PRODUCT_NORMAL = 1;
+    PRODUCT_LIMIT = 2;
 }

@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import PrestigeInfo.proto;
+import "PrestigeInfo.proto";
 
 message GetPrestigeInfoScRsp {
     uint32 retcode = 1;

@@ -2,14 +2,14 @@ syntax = "proto3";
 
 
 enum CmdMailType {
-    CmdMailTypeNone = "0";
-    CmdGetMailCsReq = "801";
-    CmdGetMailScRsp = "802";
-    CmdMarkReadMailCsReq = "803";
-    CmdMarkReadMailScRsp = "804";
-    CmdDelMailCsReq = "805";
-    CmdDelMailScRsp = "806";
-    CmdTakeMailAttachmentCsReq = "807";
-    CmdTakeMailAttachmentScRsp = "808";
-    CmdNewMailScNotify = "809";
+    CmdMailTypeNone = 0;
+    CmdGetMailCsReq = 801;
+    CmdGetMailScRsp = 802;
+    CmdMarkReadMailCsReq = 803;
+    CmdMarkReadMailScRsp = 804;
+    CmdDelMailCsReq = 805;
+    CmdDelMailScRsp = 806;
+    CmdTakeMailAttachmentCsReq = 807;
+    CmdTakeMailAttachmentScRsp = 808;
+    CmdNewMailScNotify = 809;
 }

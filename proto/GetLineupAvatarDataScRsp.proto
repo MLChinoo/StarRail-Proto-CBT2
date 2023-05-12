@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import LineupAvatarData.proto;
+import "LineupAvatarData.proto";
 
 message GetLineupAvatarDataScRsp {
     uint32 retcode = 1;

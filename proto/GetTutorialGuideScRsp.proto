@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import TutorialGuide.proto;
+import "TutorialGuide.proto";
 
 message GetTutorialGuideScRsp {
     uint32 retcode = 1;

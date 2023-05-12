@@ -2,10 +2,10 @@ syntax = "proto3";
 
 
 enum ExtraLineupType {
-    LINEUP_NONE = "0";
-    LINEUP_CHALLENGE = "1";
-    LINEUP_ROGUE = "2";
-    LINEUP_CHALLENGE_2 = "3";
-    LINEUP_CHALLENGE_3 = "4";
-    LINEUP_ROGUE_CHALLENGE = "5";
+    LINEUP_NONE = 0;
+    LINEUP_CHALLENGE = 1;
+    LINEUP_ROGUE = 2;
+    LINEUP_CHALLENGE_2 = 3;
+    LINEUP_CHALLENGE_3 = 4;
+    LINEUP_ROGUE_CHALLENGE = 5;
 }

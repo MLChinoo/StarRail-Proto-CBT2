@@ -1,9 +1,9 @@
 syntax = "proto3";
 
-import Equipment.proto;
-import Material.proto;
-import Relic.proto;
-import WaitDelResource.proto;
+import "Equipment.proto";
+import "Material.proto";
+import "Relic.proto";
+import "WaitDelResource.proto";
 
 message GetBagScRsp {
     uint32 retcode = 1;

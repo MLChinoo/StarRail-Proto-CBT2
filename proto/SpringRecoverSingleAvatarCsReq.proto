@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import AvatarType.proto;
+import "AvatarType.proto";
 
 message SpringRecoverSingleAvatarCsReq {
     uint32 plane_id = 1;

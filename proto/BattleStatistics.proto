@@ -1,7 +1,7 @@
 syntax = "proto3";
 
-import AvatarBattleInfo.proto;
-import MonsterBattleInfo.proto;
+import "AvatarBattleInfo.proto";
+import "MonsterBattleInfo.proto";
 
 message BattleStatistics {
     uint32 total_battle_turns = 1;

@@ -1,7 +1,7 @@
 syntax = "proto3";
 
-import Maze.proto;
-import RogueChallengeInfo.proto;
+import "Maze.proto";
+import "RogueChallengeInfo.proto";
 
 message StartRogueChallengeScRsp {
     uint32 retcode = 1;

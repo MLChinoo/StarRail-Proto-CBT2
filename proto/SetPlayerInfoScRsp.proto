@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import HeroBasicType.proto;
+import "HeroBasicType.proto";
 
 message SetPlayerInfoScRsp {
     uint32 retcode = 1;

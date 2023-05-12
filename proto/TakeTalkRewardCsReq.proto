@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import Vector.proto;
+import "Vector.proto";
 
 message TakeTalkRewardCsReq {
     uint32 talk_event_id = 1;

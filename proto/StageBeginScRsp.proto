@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import BattleAvatar.proto;
+import "BattleAvatar.proto";
 
 message StageBeginScRsp {
     uint32 retcode = 1;

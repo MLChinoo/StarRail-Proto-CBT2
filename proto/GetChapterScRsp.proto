@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import ChapterBrief.proto;
+import "ChapterBrief.proto";
 
 message GetChapterScRsp {
     uint32 retcode = 1;

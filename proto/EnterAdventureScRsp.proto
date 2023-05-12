@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import SceneInfo.proto;
+import "SceneInfo.proto";
 
 message EnterAdventureScRsp {
     uint32 retcode = 1;

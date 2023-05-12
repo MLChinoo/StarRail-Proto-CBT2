@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import ArchiveData.proto;
+import "ArchiveData.proto";
 
 message GetUpdatedArchiveDataScRsp {
     uint32 retcode = 1;

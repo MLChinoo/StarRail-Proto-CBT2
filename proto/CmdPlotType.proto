@@ -2,7 +2,7 @@ syntax = "proto3";
 
 
 enum CmdPlotType {
-    CmdPlotTypeNone = "0";
-    CmdFinishPlotCsReq = "1101";
-    CmdFinishPlotScRsp = "1102";
+    CmdPlotTypeNone = 0;
+    CmdFinishPlotCsReq = 1101;
+    CmdFinishPlotScRsp = 1102;
 }

@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import HealPoolInfo.proto;
+import "HealPoolInfo.proto";
 
 message HealPoolInfoNotify {
     HealPoolInfo heal_pool_info = 1;

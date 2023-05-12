@@ -1,7 +1,7 @@
 syntax = "proto3";
 
-import RogueQuestStatus.proto;
-import RogueQuestType.proto;
+import "RogueQuestStatus.proto";
+import "RogueQuestType.proto";
 
 message RogueQuest {
     uint32 rogue_quest_id = 1;

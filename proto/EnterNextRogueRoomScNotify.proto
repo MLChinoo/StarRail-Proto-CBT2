@@ -1,8 +1,8 @@
 syntax = "proto3";
 
-import Maze.proto;
-import RogueRoom.proto;
-import RogueAppraisalInfo.proto;
+import "Maze.proto";
+import "RogueRoom.proto";
+import "RogueAppraisalInfo.proto";
 
 message EnterNextRogueRoomScNotify {
     Maze maze = 1;

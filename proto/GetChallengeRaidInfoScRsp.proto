@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import ChallengeRaid.proto;
+import "ChallengeRaid.proto";
 
 message GetChallengeRaidInfoScRsp {
     uint32 retcode = 1;

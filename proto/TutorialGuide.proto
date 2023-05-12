@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import TutorialStatus.proto;
+import "TutorialStatus.proto";
 
 message TutorialGuide {
     uint32 id = 1;

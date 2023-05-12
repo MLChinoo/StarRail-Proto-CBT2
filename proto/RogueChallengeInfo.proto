@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import RogueRecord.proto;
+import "RogueRecord.proto";
 
 message RogueChallengeInfo {
     bool is_in_challenge = 1;

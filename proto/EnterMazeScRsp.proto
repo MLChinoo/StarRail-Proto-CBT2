@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import Maze.proto;
+import "Maze.proto";
 
 message EnterMazeScRsp {
     uint32 retcode = 1;

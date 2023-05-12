@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import Avatar.proto;
+import "Avatar.proto";
 
 message AvatarSync {
     repeated Avatar avatar_list = 1;

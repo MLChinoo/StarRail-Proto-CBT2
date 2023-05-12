@@ -1,7 +1,7 @@
 syntax = "proto3";
 
-import RaidStatus.proto;
-import ItemList.proto;
+import "RaidStatus.proto";
+import "ItemList.proto";
 
 message RaidInfoNotify {
     uint32 raid_id = 1;

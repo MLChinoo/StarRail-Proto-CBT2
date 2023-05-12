@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import CurChallenge.proto;
+import "CurChallenge.proto";
 
 message GetCurChallengeScRsp {
     uint32 retcode = 1;

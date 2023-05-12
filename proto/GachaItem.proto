@@ -1,7 +1,7 @@
 syntax = "proto3";
 
-import Item.proto;
-import ItemList.proto;
+import "Item.proto";
+import "ItemList.proto";
 
 message GachaItem {
     Item gacha_item = 1;

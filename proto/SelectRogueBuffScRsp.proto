@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import RogueBuffSelectInfo.proto;
+import "RogueBuffSelectInfo.proto";
 
 message SelectRogueBuffScRsp {
     uint32 retcode = 1;

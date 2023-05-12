@@ -1,7 +1,7 @@
 syntax = "proto3";
 
-import ItemList.proto;
-import RogueGachaInfo.proto;
+import "ItemList.proto";
+import "RogueGachaInfo.proto";
 
 message DoRogueGachaScRsp {
     uint32 retcode = 1;

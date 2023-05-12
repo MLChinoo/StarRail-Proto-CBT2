@@ -1,19 +1,19 @@
 syntax = "proto3";
 
-import PlayerBasicInfo.proto;
-import AvatarSync.proto;
-import Equipment.proto;
-import Material.proto;
-import Quest.proto;
-import MissionSync.proto;
-import BasicModuleSync.proto;
-import Relic.proto;
-import MissionEventSync.proto;
-import HeroBasicTypeInfo.proto;
-import RogueModuleSync.proto;
-import WaitDelResource.proto;
-import GroupStatus.proto;
-import SectionStatus.proto;
+import "PlayerBasicInfo.proto";
+import "AvatarSync.proto";
+import "Equipment.proto";
+import "Material.proto";
+import "Quest.proto";
+import "MissionSync.proto";
+import "BasicModuleSync.proto";
+import "Relic.proto";
+import "MissionEventSync.proto";
+import "HeroBasicTypeInfo.proto";
+import "RogueModuleSync.proto";
+import "WaitDelResource.proto";
+import "GroupStatus.proto";
+import "SectionStatus.proto";
 
 message PlayerSyncScNotify {
     PlayerBasicInfo basic_info = 1;

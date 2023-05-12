@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import NpcExtraInfo.proto;
+import "NpcExtraInfo.proto";
 
 message SceneNpcInfo {
     uint32 npc_id = 1;

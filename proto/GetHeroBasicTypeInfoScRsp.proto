@@ -1,9 +1,9 @@
 syntax = "proto3";
 
-import Gender.proto;
-import HeroBasicType.proto;
-import HeroBasicTypeInfo.proto;
-import HeroPath.proto;
+import "Gender.proto";
+import "HeroBasicType.proto";
+import "HeroBasicTypeInfo.proto";
+import "HeroPath.proto";
 
 message GetHeroBasicTypeInfoScRsp {
     uint32 retcode = 1;

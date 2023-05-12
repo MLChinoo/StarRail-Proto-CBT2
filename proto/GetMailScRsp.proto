@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import ClientMail.proto;
+import "ClientMail.proto";
 
 message GetMailScRsp {
     uint32 retcode = 1;

@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import Gender.proto;
+import "Gender.proto";
 
 message SetPlayerInfoCsReq {
     string nickname = 1;

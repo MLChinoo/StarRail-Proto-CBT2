@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import DialogueResultInfo.proto;
+import "DialogueResultInfo.proto";
 
 message SelectDialogueEventScRsp {
     uint32 retcode = 1;

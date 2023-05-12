@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import Product.proto;
+import "Product.proto";
 
 message QueryProductInfoScRsp {
     uint32 retcode = 1;

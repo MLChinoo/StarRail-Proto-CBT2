@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import RogueShopInfo.proto;
+import "RogueShopInfo.proto";
 
 message GetRogueShopInfoScRsp {
     uint32 retcode = 1;

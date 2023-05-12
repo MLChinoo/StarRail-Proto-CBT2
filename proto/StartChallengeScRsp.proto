@@ -1,7 +1,7 @@
 syntax = "proto3";
 
-import Maze.proto;
-import CurChallenge.proto;
+import "Maze.proto";
+import "CurChallenge.proto";
 
 message StartChallengeScRsp {
     uint32 retcode = 1;

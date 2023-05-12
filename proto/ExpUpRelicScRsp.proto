@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import PileItem.proto;
+import "PileItem.proto";
 
 message ExpUpRelicScRsp {
     uint32 retcode = 1;

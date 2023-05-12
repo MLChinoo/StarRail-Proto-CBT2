@@ -2,10 +2,10 @@ syntax = "proto3";
 
 
 enum ItemType {
-    ITEM_TYPE_NONE = "0";
-    ITEM_AVATAR_CARD = "1";
-    ITEM_EQUIPMENT = "2";
-    ITEM_MATERIAL = "3";
-    ITEM_AVATAR_EXP = "4";
-    ITEM_RELIC = "5";
+    ITEM_TYPE_NONE = 0;
+    ITEM_AVATAR_CARD = 1;
+    ITEM_EQUIPMENT = 2;
+    ITEM_MATERIAL = 3;
+    ITEM_AVATAR_EXP = 4;
+    ITEM_RELIC = 5;
 }

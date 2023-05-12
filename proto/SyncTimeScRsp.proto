@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import ClientDownloadData.proto;
+import "ClientDownloadData.proto";
 
 message SyncTimeScRsp {
     uint32 retcode = 1;

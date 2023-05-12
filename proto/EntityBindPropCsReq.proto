@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import MotionInfo.proto;
+import "MotionInfo.proto";
 
 message EntityBindPropCsReq {
     bool is_bind = 1;

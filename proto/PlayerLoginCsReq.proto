@@ -1,7 +1,7 @@
 syntax = "proto3";
 
-import PlatformType.proto;
-import LanguageType.proto;
+import "PlatformType.proto";
+import "LanguageType.proto";
 
 message PlayerLoginCsReq {
     PlatformType platform = 1;

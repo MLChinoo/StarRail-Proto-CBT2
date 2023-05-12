@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import SceneInfo.proto;
+import "SceneInfo.proto";
 
 message MazeFloor {
     uint32 floor_id = 1;

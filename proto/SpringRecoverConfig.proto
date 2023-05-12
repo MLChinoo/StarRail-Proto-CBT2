@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import AvatarPresetHp.proto;
+import "AvatarPresetHp.proto";
 
 message SpringRecoverConfig {
     repeated AvatarPresetHp avatar_preset_hp_list = 1;

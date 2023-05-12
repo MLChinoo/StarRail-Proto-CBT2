@@ -2,10 +2,10 @@ syntax = "proto3";
 
 
 enum CmdPrestigeType {
-    CmdPrestigeTypeNone = "0";
-    CmdGetPrestigeInfoCsReq = "2001";
-    CmdGetPrestigeInfoScRsp = "2002";
-    CmdPrestigeInfoChangeNotify = "2003";
-    CmdTakePrestigeLevelRewardCsReq = "2004";
-    CmdTakePrestigeLevelRewardScRsp = "2005";
+    CmdPrestigeTypeNone = 0;
+    CmdGetPrestigeInfoCsReq = 2001;
+    CmdGetPrestigeInfoScRsp = 2002;
+    CmdPrestigeInfoChangeNotify = 2003;
+    CmdTakePrestigeLevelRewardCsReq = 2004;
+    CmdTakePrestigeLevelRewardScRsp = 2005;
 }

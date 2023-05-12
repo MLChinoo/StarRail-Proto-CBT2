@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import PropExtraInfo.proto;
+import "PropExtraInfo.proto";
 
 message ScenePropInfo {
     uint32 prop_id = 1;

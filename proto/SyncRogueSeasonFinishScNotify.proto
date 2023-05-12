@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import RogueFinishInfo.proto;
+import "RogueFinishInfo.proto";
 
 message SyncRogueSeasonFinishScNotify {
     RogueFinishInfo finish_info = 2;

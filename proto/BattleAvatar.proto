@@ -1,9 +1,9 @@
 syntax = "proto3";
 
-import AvatarType.proto;
-import AvatarSkillTree.proto;
-import BattleEquipment.proto;
-import BattleRelic.proto;
+import "AvatarType.proto";
+import "AvatarSkillTree.proto";
+import "BattleEquipment.proto";
+import "BattleRelic.proto";
 
 message BattleAvatar {
     AvatarType avatar_type = 1;

@@ -2,6 +2,6 @@ syntax = "proto3";
 
 
 enum BattleTag {
-    TAG_NONE = "0";
-    TAG_HIDE_NPC_MONSTER = "1";
+    TAG_NONE = 0;
+    TAG_HIDE_NPC_MONSTER = 1;
 }

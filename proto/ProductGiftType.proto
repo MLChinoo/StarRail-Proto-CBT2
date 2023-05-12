@@ -2,7 +2,7 @@ syntax = "proto3";
 
 
 enum ProductGiftType {
-    PRODUCT_GIFT_NONE = "0";
-    PRODUCT_GIFT_HCOIN = "1";
-    PRODUCT_GIFT_SUBSCRIPTION = "2";
+    PRODUCT_GIFT_NONE = 0;
+    PRODUCT_GIFT_HCOIN = 1;
+    PRODUCT_GIFT_SUBSCRIPTION = 2;
 }

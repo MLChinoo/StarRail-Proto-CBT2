@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import Chapter.proto;
+import "Chapter.proto";
 
 message GetWaypointScRsp {
     uint32 retcode = 1;

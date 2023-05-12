@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import ItemCostData.proto;
+import "ItemCostData.proto";
 
 message ExpUpEquipmentCsReq {
     uint32 equipment_unique_id = 1;

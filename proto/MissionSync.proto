@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import Mission.proto;
+import "Mission.proto";
 
 message MissionSync {
     repeated Mission mission_list = 1;

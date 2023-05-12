@@ -1,7 +1,7 @@
 syntax = "proto3";
 
-import ItemList.proto;
-import RogueQuest.proto;
+import "ItemList.proto";
+import "RogueQuest.proto";
 
 message GetRogueQuestRewardScRsp {
     uint32 retcode = 1;

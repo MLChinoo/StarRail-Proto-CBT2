@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import NpcStatus.proto;
+import "NpcStatus.proto";
 
 message GetNpcStatusScRsp {
     uint32 retcode = 1;

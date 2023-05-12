@@ -2,7 +2,7 @@ syntax = "proto3";
 
 
 enum RogueGachaGoodsStatus {
-    ROGUE_GACHA_GOODS_DEFAULT = "0";
-    ROGUE_GACHA_GOODS_UP = "1";
-    ROGUE_GACHA_GOODS_EMPTY = "2";
+    ROGUE_GACHA_GOODS_DEFAULT = 0;
+    ROGUE_GACHA_GOODS_UP = 1;
+    ROGUE_GACHA_GOODS_EMPTY = 2;
 }

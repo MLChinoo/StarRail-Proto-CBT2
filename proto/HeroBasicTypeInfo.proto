@@ -1,7 +1,7 @@
 syntax = "proto3";
 
-import HeroBasicType.proto;
-import AvatarSkillTree.proto;
+import "HeroBasicType.proto";
+import "AvatarSkillTree.proto";
 
 message HeroBasicTypeInfo {
     HeroBasicType basic_type = 1;

@@ -1,8 +1,8 @@
 syntax = "proto3";
 
-import SceneEntityInfo.proto;
-import BuffInfo.proto;
-import EntityBuffInfo.proto;
+import "SceneEntityInfo.proto";
+import "BuffInfo.proto";
+import "EntityBuffInfo.proto";
 
 message SceneInfo {
     uint32 plane_id = 1;

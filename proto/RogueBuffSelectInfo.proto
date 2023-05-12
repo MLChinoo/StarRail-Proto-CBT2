@@ -1,7 +1,7 @@
 syntax = "proto3";
 
-import RogueBuff.proto;
-import ItemCostData.proto;
+import "RogueBuff.proto";
+import "ItemCostData.proto";
 
 message RogueBuffSelectInfo {
     uint32 roll_buff_count = 1;

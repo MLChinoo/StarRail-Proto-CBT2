@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import RogueBuff.proto;
+import "RogueBuff.proto";
 
 message AddRogueBuffScNotify {
     RogueBuff maze_buff_info = 1;

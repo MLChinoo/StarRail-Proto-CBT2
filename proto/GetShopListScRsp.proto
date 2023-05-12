@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import Shop.proto;
+import "Shop.proto";
 
 message GetShopListScRsp {
     uint32 retcode = 1;

@@ -2,6 +2,6 @@ syntax = "proto3";
 
 
 enum AddAvatarSrc {
-    ADD_AVATAR_SRC_NONE = "0";
-    ADD_AVATAR_SRC_GACHA = "1";
+    ADD_AVATAR_SRC_NONE = 0;
+    ADD_AVATAR_SRC_GACHA = 1;
 }

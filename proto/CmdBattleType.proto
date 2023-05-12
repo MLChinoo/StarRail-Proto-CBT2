@@ -2,14 +2,14 @@ syntax = "proto3";
 
 
 enum CmdBattleType {
-    CmdBattleTypeNone = "0";
-    CmdPVEBattleResultCsReq = "101";
-    CmdPVEBattleResultScRsp = "102";
-    CmdQuitBattleCsReq = "103";
-    CmdQuitBattleScRsp = "104";
-    CmdGetCurBattleInfoCsReq = "105";
-    CmdGetCurBattleInfoScRsp = "106";
-    CmdSyncClientResVersionCsReq = "107";
-    CmdSyncClientResVersionScRsp = "108";
-    CmdQuitBattleScNotify = "109";
+    CmdBattleTypeNone = 0;
+    CmdPVEBattleResultCsReq = 101;
+    CmdPVEBattleResultScRsp = 102;
+    CmdQuitBattleCsReq = 103;
+    CmdQuitBattleScRsp = 104;
+    CmdGetCurBattleInfoCsReq = 105;
+    CmdGetCurBattleInfoScRsp = 106;
+    CmdSyncClientResVersionCsReq = 107;
+    CmdSyncClientResVersionScRsp = 108;
+    CmdQuitBattleScNotify = 109;
 }

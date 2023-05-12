@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import ItemList.proto;
+import "ItemList.proto";
 
 message TakeLoginActivityRewardScRsp {
     uint32 retcode = 1;

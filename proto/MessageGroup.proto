@@ -1,7 +1,7 @@
 syntax = "proto3";
 
-import MessageGroupStatus.proto;
-import MessageSection.proto;
+import "MessageGroupStatus.proto";
+import "MessageSection.proto";
 
 message MessageGroup {
     uint32 id = 1;

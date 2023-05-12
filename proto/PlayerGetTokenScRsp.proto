@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import BlackInfo.proto;
+import "BlackInfo.proto";
 
 message PlayerGetTokenScRsp {
     uint32 retcode = 1;
