@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+import ItemList.proto;
+
+message ClientMail {
+    uint32 id = 1;
+    uint32 template_id = 2;
+    string title = 3;
+    string content = 4;
+    string sender = 5;
+    uint32 time = 6;
+    ItemList attachment = 7;
+    bool is_read = 8;
+    uint32 expire_time = 9;
+    repeated string para_list = 10;
+}

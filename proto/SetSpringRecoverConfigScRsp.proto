@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import SpringRecoverConfig.proto;
+
+message SetSpringRecoverConfigScRsp {
+    uint32 retcode = 1;
+    SpringRecoverConfig spring_recover_config = 2;
+}

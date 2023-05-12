@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import RogueShopItem.proto;
+import RogueShopInfo.proto;
+
+message BuyRogueShopItemScRsp {
+    uint32 retcode = 1;
+    uint32 item_id = 2;
+    uint32 buy_count = 3;
+    RogueShopItem rogue_shop_item = 4;
+    RogueShopInfo rogue_shop_info = 5;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+message RogueGachaGoods {
+    uint32 gacha_goods_id = 1;
+    uint32 status = 2;
+}

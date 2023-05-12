@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+
+message ReturnStartAnchorScRsp {
+    uint32 retcode = 1;
+}

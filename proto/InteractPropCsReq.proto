@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import MotionInfo.proto;
+
+message InteractPropCsReq {
+    uint32 prop_entity_id = 1;
+    uint32 interact_id = 2;
+    MotionInfo motion = 3;
+}

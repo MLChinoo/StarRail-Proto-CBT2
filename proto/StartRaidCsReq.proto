@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+message StartRaidCsReq {
+    uint32 prop_entity_id = 1;
+    uint32 raid_id = 2;
+    uint32 world_level = 3;
+    repeated uint32 avatar_list = 4;
+}

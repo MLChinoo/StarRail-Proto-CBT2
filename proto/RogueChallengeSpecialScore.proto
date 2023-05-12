@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+message RogueChallengeSpecialScore {
+    uint32 score_id = 1;
+    uint32 score = 2;
+}

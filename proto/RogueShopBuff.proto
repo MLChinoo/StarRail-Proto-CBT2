@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import RogueBuff.proto;
+
+message RogueShopBuff {
+    RogueBuff buff_info = 1;
+    uint32 total_count = 2;
+    uint32 left_count = 3;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import BattleCheckResultType.proto;
+import BattleEndStatus.proto;
+import BattleStatistics.proto;
+
+message BattleResult {
+    BattleCheckResultType retcode = 1;
+    BattleEndStatus end_status = 2;
+    BattleStatistics stt = 3;
+    bytes game_core_log_encode = 4;
+    map<string, uint32> tags = 5;
+    uint32 mismatch_turn_count = 6;
+}

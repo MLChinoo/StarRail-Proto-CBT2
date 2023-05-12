@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+message TakeChallengeTargetRewardCsReq {
+    uint32 challenge_id = 1;
+    repeated uint32 index_list = 2;
+}

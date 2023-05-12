@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import NpcStatus.proto;
+
+message GetNpcStatusScRsp {
+    uint32 retcode = 1;
+    repeated NpcStatus message_status_list = 2;
+}

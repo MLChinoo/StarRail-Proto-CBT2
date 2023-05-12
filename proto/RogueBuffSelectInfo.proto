@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import RogueBuff.proto;
+import ItemCostData.proto;
+
+message RogueBuffSelectInfo {
+    uint32 roll_buff_count = 1;
+    uint32 rogue_coin = 2;
+    uint32 left_select_count = 3;
+    repeated RogueBuff maze_buff_list = 4;
+    uint32 roll_buff_max_count = 5;
+    ItemCostData roll_buff_cost_data = 6;
+}

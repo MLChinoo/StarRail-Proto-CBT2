@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+
+message RecoverRogueStaminaCsReq {
+    uint32 prop_entity_id = 1;
+}

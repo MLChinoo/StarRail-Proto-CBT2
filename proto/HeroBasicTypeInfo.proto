@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import HeroBasicType.proto;
+import AvatarSkillTree.proto;
+
+message HeroBasicTypeInfo {
+    HeroBasicType basic_type = 1;
+    uint32 rank = 2;
+    repeated AvatarSkillTree skill_tree_list = 3;
+}

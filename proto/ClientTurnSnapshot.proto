@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import CharacterSnapshot.proto;
+import AnimEventSnapshot.proto;
+
+message ClientTurnSnapshot {
+    uint32 turn_counter = 1;
+    uint32 random_counter = 2;
+    uint32 anim_event_counter = 3;
+    repeated CharacterSnapshot snapshot_list = 4;
+    repeated AnimEventSnapshot anim_event_list = 5;
+}

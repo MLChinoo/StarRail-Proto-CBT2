@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import ItemCostData.proto;
+
+message SellItemCsReq {
+    ItemCostData cost_data = 1;
+}

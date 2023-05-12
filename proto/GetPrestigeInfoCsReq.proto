@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+
+message GetPrestigeInfoCsReq {
+    uint32 prestige_id = 1;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import QuestStatus.proto;
+
+message Quest {
+    uint32 id = 1;
+    QuestStatus status = 2;
+    uint32 progress = 3;
+    uint32 finish_time = 4;
+}

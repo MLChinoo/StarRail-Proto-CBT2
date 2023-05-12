@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import RogueChallengeFinishInfo.proto;
+
+message SyncRogueChallengeFinishScNotify {
+    RogueChallengeFinishInfo finish_info = 1;
+}

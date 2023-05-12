@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import ItemList.proto;
+
+message RechargeSuccNotify {
+    ItemList item_list = 1;
+}

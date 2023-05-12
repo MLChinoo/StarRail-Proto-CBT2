@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+
+message DailyRefreshNotify {
+    uint32 cur_day = 1;
+}

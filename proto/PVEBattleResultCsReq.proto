@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+import BattleOp.proto;
+import BattleEndStatus.proto;
+import BattleStatistics.proto;
+
+message PVEBattleResultCsReq {
+    uint32 stage_id = 1;
+    repeated BattleOp op_list = 2;
+    bytes turn_snapshot_hash = 3;
+    uint32 cost_time = 4;
+    string debug_extra_info = 5;
+    uint32 res_version = 6;
+    bool is_ai_consider_ultra_skill = 7;
+    BattleEndStatus end_status = 8;
+    BattleStatistics stt = 9;
+    uint32 battle_id = 10;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+message PlayerGetTokenCsReq {
+    uint32 channel_id = 1;
+    string account_uid = 2;
+    string token = 3;
+    uint32 uid = 4;
+    string device = 5;
+}

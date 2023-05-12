@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import MazeFloor.proto;
+
+message Maze {
+    uint32 id = 1;
+    MazeFloor floor = 2;
+    uint32 map_entry_id = 3;
+}

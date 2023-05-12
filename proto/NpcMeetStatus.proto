@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+message NpcMeetStatus {
+    uint32 series_id = 1;
+    bool is_meet = 2;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+message SyncTaskScRsp {
+    uint32 retcode = 1;
+    string key = 2;
+}

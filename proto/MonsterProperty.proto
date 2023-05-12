@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+
+message MonsterProperty {
+    double max_hp = 1;
+    double attack = 2;
+    double defence = 3;
+    double shield = 4;
+    double speed = 5;
+    double left_hp = 6;
+}

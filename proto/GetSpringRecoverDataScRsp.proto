@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import SpringRecoverConfig.proto;
+import HealPoolInfo.proto;
+
+message GetSpringRecoverDataScRsp {
+    uint32 retcode = 1;
+    SpringRecoverConfig spring_recover_config = 2;
+    HealPoolInfo heal_pool_info = 3;
+}

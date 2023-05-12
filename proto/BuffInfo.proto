@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+
+message BuffInfo {
+    uint32 buff_id = 1;
+    uint32 level = 2;
+    uint64 add_time_ms = 3;
+    float life_time = 4;
+    uint32 count = 5;
+    uint32 base_avatar_id = 6;
+    map<string, float> dynamic_values = 7;
+}

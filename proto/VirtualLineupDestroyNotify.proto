@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+
+message VirtualLineupDestroyNotify {
+    uint32 plane_id = 1;
+}

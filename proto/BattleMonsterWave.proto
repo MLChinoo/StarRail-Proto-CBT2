@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+
+message BattleMonsterWave {
+    repeated uint32 monster_id_list = 1;
+}

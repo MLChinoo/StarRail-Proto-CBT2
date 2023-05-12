@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import Tutorial.proto;
+
+message GetTutorialScRsp {
+    uint32 retcode = 1;
+    repeated Tutorial tutorial_list = 2;
+}

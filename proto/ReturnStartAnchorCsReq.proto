@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+
+message ReturnStartAnchorCsReq {
+    uint32 entry_id = 1;
+}

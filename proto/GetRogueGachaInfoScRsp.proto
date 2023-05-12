@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import RogueGachaInfo.proto;
+
+message GetRogueGachaInfoScRsp {
+    uint32 retcode = 1;
+    RogueGachaInfo rogue_gacha_info = 2;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+
+message InterruptMissionEventCsReq {
+    uint32 mission_event_id = 1;
+}

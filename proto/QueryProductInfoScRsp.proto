@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import Product.proto;
+
+message QueryProductInfoScRsp {
+    uint32 retcode = 1;
+    repeated Product product_list = 2;
+}

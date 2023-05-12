@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+message RogueModuleSync {
+    uint32 rogue_coin = 1;
+    uint32 rogue_stamina = 2;
+    uint32 rogue_explore_exp = 3;
+}

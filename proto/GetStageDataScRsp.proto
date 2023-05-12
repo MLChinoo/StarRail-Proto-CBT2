@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import Stage.proto;
+
+message GetStageDataScRsp {
+    uint32 retcode = 1;
+    repeated Stage stage_list = 2;
+    bool is_all = 3;
+}

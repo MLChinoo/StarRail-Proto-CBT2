@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+message LockRelicCsReq {
+    uint32 relic_unique_id = 1;
+    bool is_lock = 2;
+}

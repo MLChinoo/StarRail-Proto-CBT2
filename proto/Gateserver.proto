@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+
+message Gateserver {
+    uint32 retcode = 1;
+    string msg = 2;
+    string region_name = 3;
+    string ip = 4;
+    uint32 port = 5;
+    uint32 stop_begin_time = 6;
+    uint32 stop_end_time = 7;
+    bool data_use_asset_boundle = 8;
+    bool res_use_asset_boundle = 9;
+    string asset_bundle_url = 10;
+    string ex_resource_url = 11;
+    string lua_url = 12;
+    uint32 asb_relogin = 13;
+    string asb_memo = 14;
+    uint32 design_data_relogin = 15;
+    string design_data_memo = 16;
+    string client_secret_key = 17;
+    string record_game_object_user_data = 18;
+    bool use_tcp = 19;
+    string custom_service_url = 20;
+    string operation_feedback_url = 21;
+    string privacy_in_game_url = 22;
+    bool client_record_replay = 23;
+    string server_description = 24;
+}

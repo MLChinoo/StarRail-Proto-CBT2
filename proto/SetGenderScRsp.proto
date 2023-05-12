@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import HeroBasicType.proto;
+
+message SetGenderScRsp {
+    uint32 retcode = 1;
+    HeroBasicType cur_basic_type = 2;
+}

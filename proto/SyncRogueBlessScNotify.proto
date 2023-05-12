@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import RogueBlessInfo.proto;
+
+message SyncRogueBlessScNotify {
+    RogueBlessInfo bless_info = 1;
+    bool level_up_max = 2;
+}

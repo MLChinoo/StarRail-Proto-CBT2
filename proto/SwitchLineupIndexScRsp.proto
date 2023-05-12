@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+message SwitchLineupIndexScRsp {
+    uint32 retcode = 1;
+    uint32 index = 2;
+}

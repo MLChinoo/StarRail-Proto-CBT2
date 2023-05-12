@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+
+message SetCurInteractEntityScRsp {
+    uint32 retcode = 1;
+}

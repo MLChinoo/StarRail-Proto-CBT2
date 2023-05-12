@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import Expedition.proto;
+
+message GetExpeditionDataScRsp {
+    uint32 retcode = 1;
+    uint32 team_count = 2;
+    repeated uint32 unlocked_expedition_id_list = 3;
+    repeated Expedition expedtion_list = 4;
+}

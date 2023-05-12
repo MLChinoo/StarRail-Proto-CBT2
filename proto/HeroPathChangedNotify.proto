@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import HeroPath.proto;
+
+message HeroPathChangedNotify {
+    HeroPath hero_path = 1;
+}

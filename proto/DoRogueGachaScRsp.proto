@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import ItemList.proto;
+import RogueGachaInfo.proto;
+
+message DoRogueGachaScRsp {
+    uint32 retcode = 1;
+    ItemList item_list = 2;
+    RogueGachaInfo rogue_gacha_info = 3;
+}

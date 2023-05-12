@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+
+message StartRogueCsReq {
+    repeated uint32 base_avatar_id_list = 1;
+}

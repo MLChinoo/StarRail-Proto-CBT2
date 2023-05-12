@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import Maze.proto;
+import RogueLevel.proto;
+import RogueAppraisalInfo.proto;
+
+message EnterRogueNextLevelScRsp {
+    uint32 retcode = 1;
+    Maze maze = 2;
+    RogueLevel level_info = 3;
+    RogueAppraisalInfo appraisal_info = 4;
+}

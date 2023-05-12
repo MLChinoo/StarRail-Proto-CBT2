@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+
+enum CmdWaypointType {
+    CmdWaypointTypeNone = "0";
+    CmdGetWaypointCsReq = "401";
+    CmdGetWaypointScRsp = "402";
+    CmdSetCurWaypointCsReq = "403";
+    CmdSetCurWaypointScRsp = "404";
+    CmdGetChapterCsReq = "405";
+    CmdGetChapterScRsp = "406";
+    CmdWaypointShowNewCsNotify = "407";
+    CmdTakeChapterRewardCsReq = "408";
+    CmdTakeChapterRewardScRsp = "409";
+}

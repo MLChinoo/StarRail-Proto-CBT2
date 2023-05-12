@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+
+message SetRogueGachaWishListCsReq {
+    uint32 wish_list_id = 1;
+}

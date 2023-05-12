@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import DialogueResultInfo.proto;
+
+message SelectDialogueEventScRsp {
+    uint32 retcode = 1;
+    uint32 dialogue_group_id = 2;
+    uint32 dialogue_event_id = 3;
+    DialogueResultInfo result_info = 4;
+}

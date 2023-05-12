@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+
+message DelMailCsReq {
+    repeated uint32 id_list = 1;
+}

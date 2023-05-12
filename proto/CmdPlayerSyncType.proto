@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+enum CmdPlayerSyncType {
+    CmdPlayerSyncNone = "0";
+    CmdPlayerSyncScNotify = "601";
+}

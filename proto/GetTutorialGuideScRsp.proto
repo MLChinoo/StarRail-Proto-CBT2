@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import TutorialGuide.proto;
+
+message GetTutorialGuideScRsp {
+    uint32 retcode = 1;
+    repeated TutorialGuide tutorial_guide_list = 2;
+}

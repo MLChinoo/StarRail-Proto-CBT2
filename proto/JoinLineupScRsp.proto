@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+
+message JoinLineupScRsp {
+    uint32 retcode = 1;
+}

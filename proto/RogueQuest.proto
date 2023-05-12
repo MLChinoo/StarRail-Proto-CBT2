@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import RogueQuestStatus.proto;
+import RogueQuestType.proto;
+
+message RogueQuest {
+    uint32 rogue_quest_id = 1;
+    int32 world_level = 2;
+    uint32 progress = 3;
+    RogueQuestStatus status = 4;
+    uint32 begin_time = 5;
+    uint32 end_time = 6;
+    RogueQuestType type = 7;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+message ClientUploadData {
+    string tag = 1;
+    string value = 2;
+}

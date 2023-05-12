@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+import MotionInfo.proto;
+import SceneActorInfo.proto;
+import SceneNpcMonsterInfo.proto;
+import SceneNpcInfo.proto;
+import ScenePropInfo.proto;
+
+message SceneEntityInfo {
+    uint32 entity_id = 1;
+    MotionInfo motion = 2;
+    uint32 group_id = 3;
+    uint32 inst_id = 4;
+    oneof entity {
+        SceneActorInfo actor = 5;
+        SceneNpcMonsterInfo npc_monster = 6;
+        SceneNpcInfo npc = 7;
+        ScenePropInfo prop = 8;
+    }
+}

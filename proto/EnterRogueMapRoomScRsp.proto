@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import Maze.proto;
+
+message EnterRogueMapRoomScRsp {
+    uint32 retcode = 1;
+    Maze maze = 2;
+    uint32 cur_room_id = 3;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+enum CmdArchiveType {
+    CmdArchiveTypeNone = "0";
+    CmdGetArchiveDataCsReq = "2301";
+    CmdGetArchiveDataScRsp = "2302";
+    CmdGetUpdatedArchiveDataCsReq = "2303";
+    CmdGetUpdatedArchiveDataScRsp = "2304";
+}

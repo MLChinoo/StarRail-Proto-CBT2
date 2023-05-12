@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+message PileItem {
+    uint32 item_id = 1;
+    uint32 item_num = 2;
+}

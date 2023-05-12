@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+
+message FinishTalkMissionCsReq {
+    string talk_str = 1;
+}

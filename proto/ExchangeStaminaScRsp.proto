@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import ItemCost.proto;
+
+message ExchangeStaminaScRsp {
+    uint32 retcode = 1;
+    uint32 stamina_add = 2;
+    repeated ItemCost item_cost_list = 3;
+    uint32 last_recover_time = 4;
+    uint32 exchange_times = 5;
+}

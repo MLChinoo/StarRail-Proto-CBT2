@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+message QuitLineupScRsp {
+    uint32 retcode = 1;
+    uint32 base_avatar_id = 2;
+    bool is_mainline = 3;
+    uint32 plane_id = 4;
+    bool is_virtual = 5;
+}

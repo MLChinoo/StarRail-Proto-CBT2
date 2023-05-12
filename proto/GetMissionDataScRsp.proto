@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import Mission.proto;
+
+message GetMissionDataScRsp {
+    uint32 retcode = 1;
+    repeated Mission mission_list = 2;
+}

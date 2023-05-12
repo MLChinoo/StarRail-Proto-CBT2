@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+
+enum CmdQuestType {
+    CmdQuestTypeNone = "0";
+    CmdGetQuestDataCsReq = "901";
+    CmdGetQuestDataScRsp = "902";
+    CmdTakeQuestRewardCsReq = "903";
+    CmdTakeQuestRewardScRsp = "904";
+    CmdTakeAchievementLevelRewardCsReq = "905";
+    CmdTakeAchievementLevelRewardScRsp = "906";
+}

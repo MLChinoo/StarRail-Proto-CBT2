@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import ClientDownloadData.proto;
+
+message ClientDownloadDataScNotify {
+    ClientDownloadData download_data = 1;
+}

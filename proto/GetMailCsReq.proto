@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+message GetMailCsReq {
+    uint32 start = 1;
+    uint32 stop = 2;
+}

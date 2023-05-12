@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+
+enum CmdTutorialType {
+    CmdTutorialTypeNone = "0";
+    CmdGetTutorialCsReq = "1601";
+    CmdGetTutorialScRsp = "1602";
+    CmdGetTutorialGuideCsReq = "1603";
+    CmdGetTutorialGuideScRsp = "1604";
+    CmdUnlockTutorialCsReq = "1605";
+    CmdUnlockTutorialScRsp = "1606";
+    CmdUnlockTutorialGuideCsReq = "1607";
+    CmdUnlockTutorialGuideScRsp = "1608";
+    CmdFinishTutorialCsReq = "1609";
+    CmdFinishTutorialScRsp = "1610";
+    CmdFinishTutorialGuideCsReq = "1611";
+    CmdFinishTutorialGuideScRsp = "1612";
+}

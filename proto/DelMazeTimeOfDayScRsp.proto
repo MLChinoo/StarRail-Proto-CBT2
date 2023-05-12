@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+message DelMazeTimeOfDayScRsp {
+    uint32 retcode = 1;
+    uint32 plane_id = 2;
+}

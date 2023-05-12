@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import RogueShopBuff.proto;
+import RogueShopItem.proto;
+
+message RogueShopInfo {
+    uint32 rogue_shop_id = 1;
+    repeated RogueShopBuff shop_buff_list = 2;
+    repeated RogueShopItem shop_item_list = 3;
+}

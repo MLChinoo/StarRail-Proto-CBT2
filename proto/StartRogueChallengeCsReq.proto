@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+
+message StartRogueChallengeCsReq {
+    uint32 record_slot = 1;
+}

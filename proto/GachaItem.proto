@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import Item.proto;
+import ItemList.proto;
+
+message GachaItem {
+    Item gacha_item = 1;
+    ItemList transfer_item_list = 2;
+    bool is_new = 3;
+    ItemList token_item = 4;
+}

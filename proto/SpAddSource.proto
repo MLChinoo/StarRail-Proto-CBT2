@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+message SpAddSource {
+    string source = 1;
+    uint32 sp_add = 2;
+}

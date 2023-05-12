@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import MessageSectionStatus.proto;
+import MessageItem.proto;
+
+message MessageSection {
+    uint32 id = 1;
+    uint32 message_item_id = 2;
+    MessageSectionStatus status = 3;
+    repeated MessageItem item_list = 4;
+}

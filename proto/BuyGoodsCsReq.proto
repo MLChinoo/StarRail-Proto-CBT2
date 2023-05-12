@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+message BuyGoodsCsReq {
+    uint32 shop_id = 1;
+    uint32 goods_id = 2;
+    uint32 goods_num = 3;
+}

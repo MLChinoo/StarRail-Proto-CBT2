@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+message Goods {
+    uint32 goods_id = 1;
+    uint32 buy_times = 2;
+    uint32 begin_time = 3;
+    uint32 end_time = 4;
+}

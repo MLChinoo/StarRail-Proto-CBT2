@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+message ChapterBrief {
+    uint32 id = 1;
+    uint32 finish_challenge_num = 2;
+    repeated uint32 taken_reward_id_list = 3;
+    bool is_new = 4;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+message BasicModuleSync {
+    uint32 stamina = 1;
+    uint32 week_cocoon_finished_count = 2;
+}

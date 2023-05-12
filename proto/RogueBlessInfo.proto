@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import RogueBless.proto;
+
+message RogueBlessInfo {
+    repeated RogueBless bless_list = 1;
+    uint32 active_bless_id = 2;
+    RogueBless bless = 3;
+    uint32 monster_kill_count = 4;
+}

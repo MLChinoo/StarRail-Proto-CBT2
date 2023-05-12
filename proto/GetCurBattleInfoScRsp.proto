@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import BattleAvatar.proto;
+import SceneBattleInfo.proto;
+import BattleEndStatus.proto;
+
+message GetCurBattleInfoScRsp {
+    uint32 retcode = 1;
+    uint32 stage_id = 2;
+    uint32 logic_random_seed = 3;
+    repeated BattleAvatar avatar_list = 4;
+    SceneBattleInfo battle_info = 5;
+    BattleEndStatus last_end_status = 6;
+    uint32 last_event_id = 7;
+}

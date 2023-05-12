@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import ChapterBrief.proto;
+import Waypoint.proto;
+
+message Chapter {
+    ChapterBrief brief_info = 1;
+    repeated Waypoint waypoint_list = 2;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+
+message GachaInfo {
+    uint32 gacha_id = 1;
+    uint32 begin_time = 2;
+    uint32 end_time = 3;
+    string detail_webview = 4;
+    uint32 newbie_gacha_cnt = 5;
+    uint32 today_gacha_cnt = 6;
+}

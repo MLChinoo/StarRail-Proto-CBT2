@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+
+message DoRogueGachaCsReq {
+    uint32 count = 1;
+}

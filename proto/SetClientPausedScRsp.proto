@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+message SetClientPausedScRsp {
+    uint32 retcode = 1;
+    bool paused = 2;
+}

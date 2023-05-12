@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+message EquipRelic {
+    uint32 type = 1;
+    uint32 relic_unique_id = 2;
+}

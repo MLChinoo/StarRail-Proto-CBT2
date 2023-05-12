@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import AvatarSkillTree.proto;
+import EquipRelic.proto;
+
+message Avatar {
+    uint32 base_avatar_id = 1;
+    uint32 exp = 2;
+    uint32 level = 3;
+    uint32 promotion = 4;
+    uint32 rank = 5;
+    repeated AvatarSkillTree skilltree_list = 6;
+    uint32 equipment_unique_id = 7;
+    repeated EquipRelic equip_relic_list = 8;
+}

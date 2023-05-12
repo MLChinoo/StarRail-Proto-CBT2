@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import Mission.proto;
+
+message GetMissionEventDataScRsp {
+    uint32 retcode = 1;
+    repeated Mission mission_event_list = 2;
+    uint32 challenge_event_id = 3;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+
+message SetClientPausedCsReq {
+    bool paused = 1;
+}

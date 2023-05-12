@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+
+message LastSpringRefreshTimeNotify {
+    uint32 last_time = 1;
+}

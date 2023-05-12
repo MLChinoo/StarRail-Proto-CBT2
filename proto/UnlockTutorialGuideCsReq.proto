@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+
+message UnlockTutorialGuideCsReq {
+    uint32 group_id = 1;
+}

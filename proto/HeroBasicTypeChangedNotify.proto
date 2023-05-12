@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import HeroBasicType.proto;
+
+message HeroBasicTypeChangedNotify {
+    HeroBasicType cur_basic_type = 1;
+}

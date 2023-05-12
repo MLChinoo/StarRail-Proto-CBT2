@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import AvatarType.proto;
+
+message LineupAvatarData {
+    AvatarType avatar_type = 1;
+    uint32 id = 2;
+    uint32 hp = 3;
+}

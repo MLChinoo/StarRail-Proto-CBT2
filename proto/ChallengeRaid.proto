@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+message ChallengeRaid {
+    uint32 raid_id = 1;
+    uint32 max_score = 2;
+}

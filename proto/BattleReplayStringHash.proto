@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+message BattleReplayStringHash {
+    int32 hash = 1;
+    string value = 2;
+}

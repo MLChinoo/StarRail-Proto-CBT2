@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import RaidStatus.proto;
+import ItemList.proto;
+
+message RaidInfoNotify {
+    uint32 raid_id = 1;
+    uint32 world_level = 2;
+    RaidStatus status = 3;
+    ItemList item_list = 4;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+
+message TakeQuestRewardCsReq {
+    repeated uint32 quest_id_list = 1;
+}

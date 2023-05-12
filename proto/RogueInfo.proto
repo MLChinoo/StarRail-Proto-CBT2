@@ -1,0 +1,39 @@
+syntax = "proto3";
+
+import RogueStatus.proto;
+import RogueLevel.proto;
+import RogueRoom.proto;
+import RogueBuff.proto;
+import RogueBuffSelectInfo.proto;
+import RogueBlessInfo.proto;
+import RogueAppraisalInfo.proto;
+import RogueQuest.proto;
+
+message RogueInfo {
+    RogueStatus status = 1;
+    RogueLevel level_info = 2;
+    repeated RogueRoom room_list = 3;
+    uint32 rogue_coin = 4;
+    repeated uint32 base_avatar_id_list = 5;
+    uint32 rogue_stamina = 6;
+    uint32 revive_count = 7;
+    uint32 recover_stamina_count = 8;
+    bool is_record_saved = 9;
+    repeated uint32 explore_reward_list = 10;
+    uint32 season_id = 11;
+    uint32 begin_time = 12;
+    uint32 end_time = 13;
+    bool is_win = 14;
+    repeated RogueBuff maze_buff_list = 15;
+    repeated RogueBuff extra_buff_list = 16;
+    uint32 rogue_explore_exp = 17;
+    uint32 rogue_explore_lv = 18;
+    RogueBuffSelectInfo buff_select_info = 19;
+    bool is_pick_avatar = 20;
+    RogueBlessInfo bless_info = 21;
+    uint32 buff_score = 22;
+    RogueAppraisalInfo appraisal_info = 23;
+    int32 world_level = 24;
+    uint32 rogue_gacha_item_num_on_enter = 25;
+    repeated RogueQuest rogue_quest_list = 26;
+}

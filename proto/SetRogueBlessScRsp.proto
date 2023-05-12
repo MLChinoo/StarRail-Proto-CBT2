@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+message SetRogueBlessScRsp {
+    uint32 retcode = 1;
+    uint32 bless_id = 2;
+}

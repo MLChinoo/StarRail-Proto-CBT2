@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+message GetBasicInfoScRsp {
+    uint32 retcode = 1;
+    uint32 next_recover_time = 2;
+    uint32 exchange_times = 3;
+    uint32 week_cocoon_finished_count = 4;
+    uint32 cur_day = 5;
+}

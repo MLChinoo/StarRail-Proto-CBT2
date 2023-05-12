@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+import RogueStoneAppraisalResult.proto;
+import ItemList.proto;
+import RogueBuff.proto;
+import RogueAppraisalRecord.proto;
+import RogueAppraisalItemInfo.proto;
+
+message AppraisalRogueStoneScRsp {
+    uint32 retcode = 1;
+    RogueStoneAppraisalResult result = 2;
+    ItemList reward = 3;
+    RogueBuff maze_buff_info = 4;
+    RogueAppraisalRecord appraisal_record = 5;
+    RogueAppraisalItemInfo item_info = 6;
+}

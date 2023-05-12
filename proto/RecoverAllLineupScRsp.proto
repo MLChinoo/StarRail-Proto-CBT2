@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+
+message RecoverAllLineupScRsp {
+    uint32 retcode = 1;
+}

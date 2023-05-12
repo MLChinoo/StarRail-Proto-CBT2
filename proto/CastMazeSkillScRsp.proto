@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+
+message CastMazeSkillScRsp {
+    uint32 retcode = 1;
+}

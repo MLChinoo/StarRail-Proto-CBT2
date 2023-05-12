@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+message SaveRogueRecordCsReq {
+    bool save = 1;
+    uint32 slot = 2;
+    string name = 3;
+}

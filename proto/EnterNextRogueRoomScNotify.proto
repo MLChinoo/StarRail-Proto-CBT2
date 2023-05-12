@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import Maze.proto;
+import RogueRoom.proto;
+import RogueAppraisalInfo.proto;
+
+message EnterNextRogueRoomScNotify {
+    Maze maze = 1;
+    RogueRoom room = 2;
+    RogueAppraisalInfo appraisal_info = 3;
+}

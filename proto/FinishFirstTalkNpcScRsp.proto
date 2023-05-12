@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+message FinishFirstTalkNpcScRsp {
+    uint32 retcode = 1;
+    uint32 series_id = 2;
+}

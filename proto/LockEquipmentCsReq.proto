@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+message LockEquipmentCsReq {
+    uint32 equipment_unique_id = 1;
+    bool is_lock = 2;
+}

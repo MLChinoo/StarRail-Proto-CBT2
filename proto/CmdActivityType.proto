@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+enum CmdActivityType {
+    CmdActivityTypeNone = "0";
+    CmdGetLoginActivityCsReq = "2601";
+    CmdGetLoginActivityScRsp = "2602";
+    CmdTakeLoginActivityRewardCsReq = "2603";
+    CmdTakeLoginActivityRewardScRsp = "2604";
+}

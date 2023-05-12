@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+
+message SetCurInteractEntityCsReq {
+    uint32 entity_id = 1;
+}

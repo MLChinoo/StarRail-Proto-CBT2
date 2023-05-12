@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import RogueShopInfo.proto;
+
+message GetRogueShopInfoScRsp {
+    uint32 retcode = 1;
+    RogueShopInfo rogue_shop_info = 2;
+}

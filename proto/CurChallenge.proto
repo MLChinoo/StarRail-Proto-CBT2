@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import ChallengeStatus.proto;
+import ExtraLineupType.proto;
+import KillMonster.proto;
+
+message CurChallenge {
+    uint32 challenge_id = 1;
+    uint32 rounds = 2;
+    ChallengeStatus status = 3;
+    ExtraLineupType extra_lineup_type = 4;
+    repeated KillMonster kill_monster_list = 5;
+    uint32 dead_avatar_num = 6;
+}

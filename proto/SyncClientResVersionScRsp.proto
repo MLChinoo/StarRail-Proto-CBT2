@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+message SyncClientResVersionScRsp {
+    uint32 retcode = 1;
+    uint32 res_version = 2;
+}

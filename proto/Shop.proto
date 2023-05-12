@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import Goods.proto;
+
+message Shop {
+    uint32 shop_id = 1;
+    uint32 begin_time = 2;
+    uint32 end_time = 3;
+    repeated Goods goods_list = 4;
+}

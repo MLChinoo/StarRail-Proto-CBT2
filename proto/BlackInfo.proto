@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+message BlackInfo {
+    uint32 begin_time = 1;
+    uint32 end_time = 2;
+    uint32 limit_level = 3;
+    uint32 ban_type = 4;
+}

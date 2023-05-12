@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import EntityMotion.proto;
+
+message SceneEntityMoveCsReq {
+    repeated EntityMotion entity_motion_list = 1;
+    uint32 entry_id = 2;
+}

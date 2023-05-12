@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+
+message CancelExpeditionCsReq {
+    uint32 expedition_id = 1;
+}

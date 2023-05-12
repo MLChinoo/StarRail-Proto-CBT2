@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import RogueAppraisalRecord.proto;
+
+message RogueAppraisalInfo {
+    repeated RogueAppraisalRecord appraisal_list = 1;
+}

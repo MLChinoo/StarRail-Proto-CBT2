@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+enum RogueQuestStatus {
+    ROGUE_QUEST_STATUS_NONE = "0";
+    ROGUE_QUEST_STATUS_DOING = "1";
+    ROGUE_QUEST_STATUS_REWARD = "2";
+    ROGUE_QUEST_STATUS_FINISH = "3";
+}

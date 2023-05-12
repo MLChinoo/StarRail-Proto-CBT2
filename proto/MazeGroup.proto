@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+message MazeGroup {
+    uint32 group_id = 1;
+    uint32 modify_time = 2;
+}

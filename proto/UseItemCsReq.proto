@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import AvatarType.proto;
+
+message UseItemCsReq {
+    uint32 use_item_id = 1;
+    uint32 use_item_count = 2;
+    uint32 base_avatar_id = 3;
+    AvatarType use_avatar_type = 4;
+    uint32 optional_reward_id = 5;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+message FinishItemIdScRsp {
+    uint32 retcode = 1;
+    uint32 item_id = 2;
+    uint32 text_id = 3;
+}

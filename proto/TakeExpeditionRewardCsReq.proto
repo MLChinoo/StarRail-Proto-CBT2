@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+
+message TakeExpeditionRewardCsReq {
+    uint32 expedition_id = 1;
+}

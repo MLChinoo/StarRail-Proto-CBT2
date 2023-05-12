@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+
+enum CmdExpeditionType {
+    CmdExpeditionTypeNone = "0";
+    CmdGetExpeditionDataCsReq = "2501";
+    CmdGetExpeditionDataScRsp = "2502";
+    CmdAcceptExpeditionCsReq = "2503";
+    CmdAcceptExpeditionScRsp = "2504";
+    CmdCancelExpeditionCsReq = "2505";
+    CmdCancelExpeditionScRsp = "2506";
+    CmdTakeExpeditionRewardCsReq = "2507";
+    CmdTakeExpeditionRewardScRsp = "2508";
+}

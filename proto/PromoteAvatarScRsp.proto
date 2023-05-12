@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+
+message PromoteAvatarScRsp {
+    uint32 retcode = 1;
+}

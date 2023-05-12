@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import Expedition.proto;
+
+message AcceptExpeditionCsReq {
+    Expedition expedition = 1;
+}

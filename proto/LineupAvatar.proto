@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import AvatarType.proto;
+
+message LineupAvatar {
+    uint32 slot = 1;
+    AvatarType avatar_type = 2;
+    uint32 id = 3;
+    uint32 hp = 4;
+    uint32 sp = 5;
+    uint32 satiety = 6;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import SceneEntityInfo.proto;
+
+message SceneEntityUpdateScNotify {
+    repeated SceneEntityInfo entity_list = 1;
+}

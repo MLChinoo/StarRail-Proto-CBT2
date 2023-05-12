@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+message ClientMailAttachmentItem {
+    uint32 mail_id = 1;
+    uint32 item_id = 2;
+}

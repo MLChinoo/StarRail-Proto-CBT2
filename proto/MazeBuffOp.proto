@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+enum MazeBuffOp {
+    MAZE_BUFF_OP_NONE = "0";
+    MAZE_BUFF_OP_ADD = "1";
+    MAZE_BUFF_OP_DEL = "2";
+}

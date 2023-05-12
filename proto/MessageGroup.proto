@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import MessageGroupStatus.proto;
+import MessageSection.proto;
+
+message MessageGroup {
+    uint32 id = 1;
+    uint32 message_section_id = 2;
+    MessageGroupStatus status = 3;
+    uint32 refresh_time = 4;
+    repeated MessageSection message_section_list = 5;
+}

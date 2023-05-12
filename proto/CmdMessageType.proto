@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+
+enum CmdMessageType {
+    CmdMessageTypeNone = "0";
+    CmdGetNpcMessageGroupCsReq = "2701";
+    CmdGetNpcMessageGroupScRsp = "2702";
+    CmdGetNpcStatusCsReq = "2703";
+    CmdGetNpcStatusScRsp = "2704";
+    CmdFinishItemIdCsReq = "2705";
+    CmdFinishItemIdScRsp = "2706";
+    CmdFinishSectionIdCsReq = "2707";
+    CmdFinishSectionIdScRsp = "2708";
+}

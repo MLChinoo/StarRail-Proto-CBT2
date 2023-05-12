@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import ItemList.proto;
+
+message MissionRewardScNotify {
+    uint32 main_mission_id = 1;
+    ItemList reward = 2;
+}

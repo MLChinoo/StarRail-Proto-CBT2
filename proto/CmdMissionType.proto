@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+
+enum CmdMissionType {
+    CmdMissionTypeNone = "0";
+    CmdGetMissionDataCsReq = "1201";
+    CmdGetMissionDataScRsp = "1202";
+    CmdFinishTalkMissionCsReq = "1203";
+    CmdFinishTalkMissionScRsp = "1204";
+    CmdMissionRewardScNotify = "1205";
+    CmdSyncTaskCsReq = "1206";
+    CmdSyncTaskScRsp = "1207";
+    CmdDailyTaskDataScNotify = "1208";
+    CmdTakeDailyTaskExtraRewardCsReq = "1209";
+    CmdTakeDailyTaskExtraRewardScRsp = "1210";
+    CmdDailyTaskRewardScNotify = "1211";
+    CmdMissionGroupWarnScNotify = "1212";
+    CmdFinishCosumeItemMissionCsReq = "1213";
+    CmdFinishCosumeItemMissionScRsp = "1214";
+    CmdGetMissionEventDataCsReq = "1215";
+    CmdGetMissionEventDataScRsp = "1216";
+    CmdMissionEventRewardScNotify = "1217";
+    CmdAcceptMissionEventCsReq = "1218";
+    CmdAcceptMissionEventScRsp = "1219";
+    CmdGetMissionStatusCsReq = "1220";
+    CmdGetMissionStatusScRsp = "1221";
+    CmdInterruptMissionEventCsReq = "1222";
+    CmdInterruptMissionEventScRsp = "1223";
+    CmdSetMissionEventProgressCsReq = "1224";
+    CmdSetMissionEventProgressScRsp = "1225";
+    CmdSubMissionRewardScNotify = "1226";
+}

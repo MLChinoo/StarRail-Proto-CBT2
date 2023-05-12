@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+message SetCurWaypointScRsp {
+    uint32 retcode = 1;
+    uint32 cur_waypoint_id = 2;
+}

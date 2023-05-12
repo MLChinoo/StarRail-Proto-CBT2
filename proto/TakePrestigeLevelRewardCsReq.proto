@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+message TakePrestigeLevelRewardCsReq {
+    uint32 prestige_id = 1;
+    uint32 level = 2;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+message DoGachaCsReq {
+    uint32 gacha_id = 1;
+    uint32 gacha_num = 2;
+    uint32 gacha_random = 3;
+    uint32 simulate_magic = 4;
+}

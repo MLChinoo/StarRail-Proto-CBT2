@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+message DailyTask {
+    uint32 main_mission_id = 1;
+    bool is_finished = 2;
+}

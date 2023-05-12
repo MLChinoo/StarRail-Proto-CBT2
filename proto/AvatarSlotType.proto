@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+enum AvatarSlotType {
+    AVATAR_SLOT_1 = "0";
+    AVATAR_SLOT_2 = "1";
+    AVATAR_SLOT_3 = "2";
+}

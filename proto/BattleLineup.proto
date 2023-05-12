@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import BattleAvatar.proto;
+import BattleMonsterWave.proto;
+import BattleBuff.proto;
+import HeroPath.proto;
+
+message BattleLineup {
+    repeated BattleAvatar avatar_list = 1;
+    repeated BattleMonsterWave monster_wave_list = 2;
+    repeated BattleBuff buff_list = 3;
+    repeated HeroPath hero_path_list = 4;
+    repeated uint32 battle_scoring_list = 5;
+}

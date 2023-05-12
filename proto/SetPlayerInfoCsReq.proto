@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import Gender.proto;
+
+message SetPlayerInfoCsReq {
+    string nickname = 1;
+    bool is_modify = 2;
+    Gender gender = 3;
+}

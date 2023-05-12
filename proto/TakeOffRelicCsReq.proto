@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+message TakeOffRelicCsReq {
+    uint32 relic_type = 1;
+    uint32 base_avatar_id = 2;
+}

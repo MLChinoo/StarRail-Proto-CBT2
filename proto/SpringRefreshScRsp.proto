@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+
+message SpringRefreshScRsp {
+    uint32 retcode = 1;
+}

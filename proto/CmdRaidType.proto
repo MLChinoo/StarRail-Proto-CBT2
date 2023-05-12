@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+
+enum CmdRaidType {
+    CmdRaidTypeNone = "0";
+    CmdStartRaidCsReq = "2201";
+    CmdStartRaidScRsp = "2202";
+    CmdLeaveRaidCsReq = "2203";
+    CmdLeaveRaidScRsp = "2204";
+    CmdRaidInfoNotify = "2205";
+    CmdGetChallengeRaidInfoCsReq = "2206";
+    CmdGetChallengeRaidInfoScRsp = "2207";
+    CmdTakeChallengeRaidRewardCsReq = "2208";
+    CmdTakeChallengeRaidRewardScRsp = "2209";
+    CmdChallengeRaidNotify = "2210";
+}

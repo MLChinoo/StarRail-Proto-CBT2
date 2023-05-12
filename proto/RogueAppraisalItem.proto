@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+message RogueAppraisalItem {
+    uint32 item_id = 1;
+    float succ_ratio = 2;
+    float perfect_ratio = 3;
+}

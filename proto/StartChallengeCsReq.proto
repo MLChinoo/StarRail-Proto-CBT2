@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+
+message StartChallengeCsReq {
+    uint32 challenge_id = 1;
+}

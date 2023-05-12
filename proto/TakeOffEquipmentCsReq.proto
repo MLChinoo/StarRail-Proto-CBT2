@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+
+message TakeOffEquipmentCsReq {
+    uint32 base_avatar_id = 1;
+}

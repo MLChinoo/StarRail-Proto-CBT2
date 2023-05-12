@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+
+message AppraisalRogueStoneCsReq {
+    uint32 stone_item_id = 1;
+}

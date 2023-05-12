@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import Equipment.proto;
+import Material.proto;
+import Relic.proto;
+import WaitDelResource.proto;
+
+message GetBagScRsp {
+    uint32 retcode = 1;
+    repeated Equipment equipment_list = 2;
+    repeated Material material_list = 3;
+    repeated Relic relic_list = 4;
+    repeated Material rogue_item_list = 5;
+    repeated WaitDelResource wait_del_resource_list = 6;
+}

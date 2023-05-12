@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import Mission.proto;
+
+message AcceptMissionEventScRsp {
+    uint32 retcode = 1;
+    Mission mission_event = 2;
+}

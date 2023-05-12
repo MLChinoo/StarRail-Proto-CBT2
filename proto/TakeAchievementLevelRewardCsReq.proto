@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+
+message TakeAchievementLevelRewardCsReq {
+    repeated uint32 achievement_level_list = 1;
+}

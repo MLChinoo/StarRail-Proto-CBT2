@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import DailyTask.proto;
+
+message DailyTaskDataScNotify {
+    bool is_taken_extra_reward = 1;
+    uint32 finished_num = 2;
+    repeated DailyTask daily_task_list = 3;
+}

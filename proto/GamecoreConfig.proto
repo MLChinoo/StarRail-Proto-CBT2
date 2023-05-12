@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+message GamecoreConfig {
+    bool is_skip_verify = 1;
+    uint32 max_turn_cnt = 2;
+    bool is_auto_fight = 3;
+    string csv_path = 4;
+}

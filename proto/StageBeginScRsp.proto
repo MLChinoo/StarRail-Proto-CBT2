@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import BattleAvatar.proto;
+
+message StageBeginScRsp {
+    uint32 retcode = 1;
+    uint32 logic_random_seed = 2;
+    uint32 stage_id = 3;
+    repeated BattleAvatar battle_avatar_list = 4;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import LanguageType.proto;
+
+message SetLanguageCsReq {
+    LanguageType language = 1;
+}

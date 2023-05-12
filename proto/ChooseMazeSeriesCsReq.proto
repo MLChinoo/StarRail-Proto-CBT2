@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+
+message ChooseMazeSeriesCsReq {
+    uint32 series_id = 1;
+}

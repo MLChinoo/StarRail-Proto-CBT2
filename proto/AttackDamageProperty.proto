@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+message AttackDamageProperty {
+    string attack_type = 1;
+    double damage = 2;
+}

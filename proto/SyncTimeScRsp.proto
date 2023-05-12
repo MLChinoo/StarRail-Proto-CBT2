@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import ClientDownloadData.proto;
+
+message SyncTimeScRsp {
+    uint32 retcode = 1;
+    uint64 client_time_ms = 2;
+    uint64 server_time_ms = 3;
+    ClientDownloadData download_data = 4;
+}

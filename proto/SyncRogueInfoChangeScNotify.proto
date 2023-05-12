@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+message SyncRogueInfoChangeScNotify {
+    uint32 recover_stamina_count = 1;
+    uint32 rogue_explore_lv = 2;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+
+message SetMissionEventProgressScRsp {
+    uint32 retcode = 1;
+}

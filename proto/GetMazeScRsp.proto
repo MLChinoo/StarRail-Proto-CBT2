@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+import Maze.proto;
+import MazeAvatar.proto;
+import MazeMission.proto;
+
+message GetMazeScRsp {
+    uint32 retcode = 1;
+    repeated Maze maze_list = 2;
+    uint32 cur_series_id = 3;
+    repeated uint32 finished_plane_list = 4;
+    repeated uint32 wait_plane_list = 5;
+    repeated uint32 taken_reward_list = 6;
+    repeated MazeAvatar avatar_list = 7;
+    repeated uint32 chosen_ability_list = 8;
+    repeated uint32 candidate_ability_list = 9;
+    repeated MazeMission maze_mission_list = 10;
+}

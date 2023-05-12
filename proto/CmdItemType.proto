@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+
+enum CmdItemType {
+    CmdItemTypeNone = "0";
+    CmdGetBagCsReq = "501";
+    CmdGetBagScRsp = "502";
+    CmdPromoteEquipmentCsReq = "503";
+    CmdPromoteEquipmentScRsp = "504";
+    CmdLockEquipmentCsReq = "505";
+    CmdLockEquipmentScRsp = "506";
+    CmdUseItemCsReq = "507";
+    CmdUseItemScRsp = "508";
+    CmdRankUpEquipmentCsReq = "509";
+    CmdRankUpEquipmentScRsp = "510";
+    CmdExpUpEquipmentCsReq = "511";
+    CmdExpUpEquipmentScRsp = "512";
+    CmdComposeItemCsReq = "513";
+    CmdComposeItemScRsp = "514";
+    CmdExpUpRelicCsReq = "515";
+    CmdExpUpRelicScRsp = "516";
+    CmdLockRelicCsReq = "517";
+    CmdLockRelicScRsp = "518";
+    CmdSellItemCsReq = "519";
+    CmdSellItemScRsp = "520";
+    CmdRechargeSuccNotify = "521";
+}

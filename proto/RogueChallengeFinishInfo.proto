@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import ItemList.proto;
+import RogueChallengeScoreInfo.proto;
+
+message RogueChallengeFinishInfo {
+    bool is_win = 1;
+    uint32 rounds = 2;
+    float damage = 3;
+    ItemList reward = 4;
+    repeated uint32 challenge_quest_list = 6;
+    RogueChallengeScoreInfo score_info = 10;
+}

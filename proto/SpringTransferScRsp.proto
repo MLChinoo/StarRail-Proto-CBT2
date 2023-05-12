@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+
+message SpringTransferScRsp {
+    uint32 retcode = 1;
+}

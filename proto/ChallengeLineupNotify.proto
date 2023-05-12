@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import ExtraLineupType.proto;
+
+message ChallengeLineupNotify {
+    ExtraLineupType extra_lineup_type = 1;
+}

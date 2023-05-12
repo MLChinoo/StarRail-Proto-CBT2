@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import DialogueEvent.proto;
+
+message GetDialogueEventDataScRsp {
+    uint32 retcode = 1;
+    repeated DialogueEvent dialogue_event_list = 2;
+}

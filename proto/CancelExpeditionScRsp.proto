@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+message CancelExpeditionScRsp {
+    uint32 retcode = 1;
+    uint32 expedition_id = 2;
+}

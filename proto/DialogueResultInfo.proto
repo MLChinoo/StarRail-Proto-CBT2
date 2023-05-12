@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import ItemList.proto;
+import RogueBuffList.proto;
+
+message DialogueResultInfo {
+    oneof result {
+        ItemList item_result = 1;
+        RogueBuffList rogue_buff_result = 2;
+    }
+}

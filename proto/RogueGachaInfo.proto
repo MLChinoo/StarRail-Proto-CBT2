@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import RogueGachaGoods.proto;
+
+message RogueGachaInfo {
+    uint32 gacha_pool_id = 1;
+    repeated RogueGachaGoods goods_list = 2;
+    repeated uint32 wish_id_list = 3;
+    uint32 cur_wish_id = 4;
+    uint32 gacha_count = 5;
+    uint32 total_count = 6;
+}

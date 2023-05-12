@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+
+message GetMazeMapInfoCsReq {
+    uint32 entry_id = 1;
+}

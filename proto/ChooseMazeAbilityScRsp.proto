@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+message ChooseMazeAbilityScRsp {
+    uint32 retcode = 1;
+    repeated uint32 ability_list = 2;
+}

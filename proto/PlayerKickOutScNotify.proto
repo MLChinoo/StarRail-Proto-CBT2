@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import KickType.proto;
+import BlackInfo.proto;
+
+message PlayerKickOutScNotify {
+    KickType kick_type = 1;
+    enum KickType {
+        KICK_SQUEEZED = 0;
+        KICK_BLACK = 1;
+        KICK_CHANGE_PWD = 2;
+    }
+    BlackInfo black_info = 2;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import PileItem.proto;
+
+message ItemCost {
+    oneof Item {
+        PileItem pile_item = 1;
+        uint32 equipment_unique_id = 2;
+        uint32 relic_unique_id = 3;
+    }
+}

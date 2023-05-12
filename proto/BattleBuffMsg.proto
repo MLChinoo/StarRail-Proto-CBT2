@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+message BattleBuffMsg {
+    repeated uint32 buff_id_list = 1;
+    repeated uint32 buff_index_list = 2;
+    repeated uint32 buff_level_list = 3;
+    repeated uint32 buff_flag_list = 4;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import ChallengeRaid.proto;
+
+message GetChallengeRaidInfoScRsp {
+    uint32 retcode = 1;
+    repeated ChallengeRaid challenge_raid_list = 2;
+    repeated uint32 taken_reward_id_list = 3;
+}

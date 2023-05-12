@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+
+message ChangeLineupLeaderCsReq {
+    uint32 slot = 1;
+}

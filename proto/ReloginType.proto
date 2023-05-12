@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+enum ReloginType {
+    NO_KICK = "0";
+    FORCE_KICK = "1";
+    IDLE_KICK = "2";
+}

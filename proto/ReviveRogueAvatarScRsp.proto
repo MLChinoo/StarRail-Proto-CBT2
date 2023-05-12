@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+message ReviveRogueAvatarScRsp {
+    uint32 retcode = 1;
+    uint32 base_avatar_id = 2;
+    uint32 rogue_stamina = 3;
+    uint32 revive_count = 4;
+}

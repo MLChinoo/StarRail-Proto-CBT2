@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import ItemList.proto;
+
+message RogueFinishInfo {
+    bool is_win = 1;
+    ItemList reward = 2;
+    repeated uint32 explore_quest_list = 3;
+    bool can_save = 4;
+    uint32 buff_score = 5;
+    uint32 rogue_gacha_item_num = 6;
+}

@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+import MonsterProperty.proto;
+import AttackDamageProperty.proto;
+import SkillUseProperty.proto;
+import DeathSource.proto;
+import BattleTag.proto;
+
+message MonsterBattleInfo {
+    uint32 entity_id = 1;
+    uint32 monster_id = 2;
+    uint32 monster_template_id = 3;
+    uint32 monster_level = 4;
+    MonsterProperty monster_status = 5;
+    uint32 total_turns = 6;
+    double total_damage = 7;
+    double total_heal = 8;
+    double total_damage_taken = 9;
+    double total_stance_damage_taken = 10;
+    double total_hp_recover = 11;
+    uint32 stage_id = 12;
+    uint32 battle_id = 13;
+    uint32 monster_type = 14;
+    repeated AttackDamageProperty attack_type_damage = 15;
+    repeated SkillUseProperty skill_times = 16;
+    uint32 stage_type = 17;
+    double total_break_damage_taken = 18;
+    double delay_cumulate = 19;
+    DeathSource death_source = 20;
+    uint32 wave = 21;
+    int32 index_in_wave = 22;
+    uint32 phase = 23;
+    uint32 max_phase = 24;
+    BattleTag battle_tag = 25;
+}

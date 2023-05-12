@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import ClientUploadData.proto;
+
+message PlayerKeepAliveNotify {
+    ClientUploadData data = 1;
+}

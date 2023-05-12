@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import HeroBasicType.proto;
+
+message SetPlayerInfoScRsp {
+    uint32 retcode = 1;
+    HeroBasicType cur_basic_type = 2;
+    bool is_modify = 3;
+}

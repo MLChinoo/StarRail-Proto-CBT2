@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import FeatureSwitchType.proto;
+import FeatureSwitchParam.proto;
+
+message FeatureSwitchInfo {
+    FeatureSwitchType type = 1;
+    repeated FeatureSwitchParam switch_list = 2;
+    bool is_all_closed = 3;
+}

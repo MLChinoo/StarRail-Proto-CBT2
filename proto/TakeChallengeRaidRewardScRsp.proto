@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import ItemList.proto;
+
+message TakeChallengeRaidRewardScRsp {
+    uint32 retcode = 1;
+    uint32 reward_id = 2;
+    ItemList reward = 3;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+
+message RankUpEquipmentScRsp {
+    uint32 retcode = 1;
+}

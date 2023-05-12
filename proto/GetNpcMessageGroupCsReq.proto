@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+
+message GetNpcMessageGroupCsReq {
+    repeated uint32 contact_id_list = 1;
+}

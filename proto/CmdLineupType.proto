@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+
+enum CmdLineupType {
+    CmdLineupTypeNone = "0";
+    CmdGetStageLineupCsReq = "701";
+    CmdGetStageLineupScRsp = "702";
+    CmdGetCurLineupDataCsReq = "703";
+    CmdGetCurLineupDataScRsp = "704";
+    CmdJoinLineupCsReq = "705";
+    CmdJoinLineupScRsp = "706";
+    CmdQuitLineupCsReq = "707";
+    CmdQuitLineupScRsp = "708";
+    CmdSwapLineupCsReq = "709";
+    CmdSwapLineupScRsp = "710";
+    CmdSyncLineupNotify = "711";
+    CmdGetLineupAvatarDataCsReq = "712";
+    CmdGetLineupAvatarDataScRsp = "713";
+    CmdChangeLineupLeaderCsReq = "714";
+    CmdChangeLineupLeaderScRsp = "715";
+    CmdSwitchLineupIndexCsReq = "716";
+    CmdSwitchLineupIndexScRsp = "717";
+    CmdSetLineupNameCsReq = "718";
+    CmdSetLineupNameScRsp = "719";
+    CmdGetAllLineupDataCsReq = "720";
+    CmdGetAllLineupDataScRsp = "721";
+    CmdVirtualLineupDestroyNotify = "722";
+}

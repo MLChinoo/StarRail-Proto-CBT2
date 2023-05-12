@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import RogueRoom.proto;
+
+message SyncRogueMapRoomScNotify {
+    uint32 level_id = 1;
+    uint32 map_id = 2;
+    RogueRoom room_info = 3;
+}

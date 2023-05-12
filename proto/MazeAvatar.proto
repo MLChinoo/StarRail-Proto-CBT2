@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+message MazeAvatar {
+    uint32 base_avatar_id = 1;
+    uint32 left_hp = 2;
+    uint32 sp = 3;
+}

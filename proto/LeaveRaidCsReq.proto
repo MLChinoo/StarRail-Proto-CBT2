@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+
+message LeaveRaidCsReq {
+    uint32 raid_id = 1;
+}

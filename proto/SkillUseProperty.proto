@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+message SkillUseProperty {
+    uint32 skill_id = 1;
+    string skill_type = 2;
+    uint32 skill_level = 3;
+    uint32 skill_use_count = 4;
+}

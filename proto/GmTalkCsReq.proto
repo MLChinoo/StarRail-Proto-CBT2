@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+
+message GmTalkCsReq {
+    string msg = 1;
+}

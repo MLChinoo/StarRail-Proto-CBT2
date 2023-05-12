@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import GachaInfo.proto;
+
+message GetGachaInfoScRsp {
+    uint32 retcode = 1;
+    repeated GachaInfo gacha_info_list = 2;
+    uint32 gacha_random = 3;
+    uint32 today_total_gacha_cnt = 4;
+    uint32 today_single_gacha_max_cnt = 5;
+    uint32 today_total_gacha_max_cnt = 6;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+enum RogueDialogStatus {
+    ROGUE_DIALOG_STATUS_NONE = "0";
+    ROGUE_DIALOG_STATUS_LOCK = "1";
+    ROGUE_DIALOG_STATUS_UNLOCK = "2";
+}

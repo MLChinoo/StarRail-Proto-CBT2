@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+message InterruptMissionEventScRsp {
+    uint32 retcode = 1;
+    uint32 mission_event_id = 2;
+}

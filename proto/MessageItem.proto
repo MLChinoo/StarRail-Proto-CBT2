@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+message MessageItem {
+    uint32 item_id = 1;
+    uint32 text_id = 2;
+}

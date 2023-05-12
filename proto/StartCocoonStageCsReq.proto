@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+message StartCocoonStageCsReq {
+    uint32 prop_entity_id = 1;
+    uint32 cocoon_id = 2;
+    uint32 wave = 3;
+    uint32 world_level = 4;
+}

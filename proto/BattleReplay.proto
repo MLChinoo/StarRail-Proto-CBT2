@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+import BattleLineup.proto;
+import BattleOp.proto;
+import BattleCheckStrategyType.proto;
+import BattleModuleType.proto;
+import ClientTurnSnapshot.proto;
+import GamecoreConfig.proto;
+import BattleReplayStringHash.proto;
+
+message BattleReplay {
+    uint32 version = 1;
+    uint32 logic_random_seed = 2;
+    uint32 stage_id = 3;
+    BattleLineup lineup = 4;
+    repeated BattleOp op_list = 5;
+    bytes turn_snapshot_hash = 6;
+    uint32 maze_plane_id = 7;
+    repeated uint32 extra_ability_list = 8;
+    bool is_ai_consider_ultra_skill = 9;
+    BattleCheckStrategyType check_strategy = 10;
+    BattleModuleType battle_module_type = 11;
+    repeated ClientTurnSnapshot turn_snapshot_list = 21;
+    string local_level_path = 22;
+    string debug_extra_info = 23;
+    GamecoreConfig config = 24;
+    bytes game_core_log_encode = 26;
+    uint32 rounds_limit = 27;
+    repeated BattleReplayStringHash log_string_hash = 28;
+    uint32 plane_id = 29;
+    uint32 floor_id = 30;
+    uint32 battle_area_group_id = 31;
+    uint32 battle_area_id = 32;
+}

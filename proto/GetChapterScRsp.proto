@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import ChapterBrief.proto;
+
+message GetChapterScRsp {
+    uint32 retcode = 1;
+    repeated ChapterBrief chapter_list = 2;
+    uint32 cur_waypoint_id = 3;
+}

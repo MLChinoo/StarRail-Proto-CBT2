@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+enum CmdGachaType {
+    CmdGachaTypeNone = "0";
+    CmdGetGachaInfoCsReq = "1901";
+    CmdGetGachaInfoScRsp = "1902";
+    CmdDoGachaCsReq = "1903";
+    CmdDoGachaScRsp = "1904";
+}

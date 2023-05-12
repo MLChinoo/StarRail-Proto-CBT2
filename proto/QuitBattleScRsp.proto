@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+
+message QuitBattleScRsp {
+    uint32 retcode = 1;
+}

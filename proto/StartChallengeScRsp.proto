@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import Maze.proto;
+import CurChallenge.proto;
+
+message StartChallengeScRsp {
+    uint32 retcode = 1;
+    Maze maze = 2;
+    CurChallenge cur_challenge = 3;
+}

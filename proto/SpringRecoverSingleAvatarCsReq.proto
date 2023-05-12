@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import AvatarType.proto;
+
+message SpringRecoverSingleAvatarCsReq {
+    uint32 plane_id = 1;
+    uint32 floor_id = 2;
+    uint32 prop_entity_id = 3;
+    AvatarType avatar_type = 4;
+    uint32 id = 5;
+    bool recover_full = 6;
+}

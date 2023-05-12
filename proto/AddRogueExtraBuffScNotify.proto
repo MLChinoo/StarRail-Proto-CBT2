@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import RogueBuff.proto;
+
+message AddRogueExtraBuffScNotify {
+    RogueBuff extra_buff_info = 1;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+message GetMazeTimeOfDayScRsp {
+    uint32 retcode = 1;
+    map<uint32, uint32> maze_time_of_day_map = 2;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+
+message SwitchLineupIndexCsReq {
+    uint32 index = 1;
+}

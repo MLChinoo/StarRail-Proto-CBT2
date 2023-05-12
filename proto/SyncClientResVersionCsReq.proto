@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+
+message SyncClientResVersionCsReq {
+    uint32 res_version = 1;
+}

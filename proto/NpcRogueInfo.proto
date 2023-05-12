@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+message NpcRogueInfo {
+    uint32 dialogue_group_id = 1;
+    uint32 rogue_npc_id = 2;
+}

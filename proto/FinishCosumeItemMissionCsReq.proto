@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+
+message FinishCosumeItemMissionCsReq {
+    uint32 sub_mission_id = 1;
+}

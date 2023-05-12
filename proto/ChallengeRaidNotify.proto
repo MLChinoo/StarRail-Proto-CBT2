@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import ChallengeRaid.proto;
+
+message ChallengeRaidNotify {
+    ChallengeRaid challenge_raid = 1;
+}

@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+import PlatformType.proto;
+import LanguageType.proto;
+
+message PlayerLoginCsReq {
+    PlatformType platform = 1;
+    string cps = 2;
+    string device_uuid = 3;
+    string device_info = 4;
+    string system_info = 5;
+    string client_version = 6;
+    LanguageType language = 7;
+    uint32 last_server_packet_id = 8;
+    string check_sum_1 = 9;
+    string check_sum_2 = 10;
+    string signature = 11;
+    string resolution = 12;
+    uint64 login_random = 13;
+    string system_language = 14;
+    uint32 res_version = 15;
+    string client_time_zone = 16;
+}

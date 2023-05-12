@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import RogueRoomStatus.proto;
+
+message RogueRoom {
+    uint32 room_id = 1;
+    RogueRoomStatus status = 2;
+    uint32 site_id = 3;
+}

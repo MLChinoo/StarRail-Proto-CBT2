@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import MissionStatus.proto;
+
+message MazeMission {
+    uint32 sub_mission_id = 1;
+    MissionStatus status = 2;
+}

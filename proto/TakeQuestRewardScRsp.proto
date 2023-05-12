@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import ItemList.proto;
+
+message TakeQuestRewardScRsp {
+    uint32 retcode = 1;
+    ItemList reward = 2;
+    repeated uint32 succ_quest_id_list = 3;
+}

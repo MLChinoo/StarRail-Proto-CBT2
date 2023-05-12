@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import Shop.proto;
+
+message GetShopListScRsp {
+    uint32 retcode = 1;
+    repeated Shop shop_list = 2;
+    uint32 shop_type = 3;
+}

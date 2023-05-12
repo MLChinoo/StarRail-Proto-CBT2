@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import RogueQuest.proto;
+
+message SyncRogueQuestScNotify {
+    RogueQuest rogue_quest = 1;
+}

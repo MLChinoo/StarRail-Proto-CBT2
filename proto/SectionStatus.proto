@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import MessageSectionStatus.proto;
+
+message SectionStatus {
+    uint32 section_id = 1;
+    MessageSectionStatus section_status = 2;
+}

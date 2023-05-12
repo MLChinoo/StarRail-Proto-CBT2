@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+
+message FinishTutorialCsReq {
+    uint32 tutorial_id = 1;
+}

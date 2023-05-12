@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import LineupInfo.proto;
+import SyncLineupReason.proto;
+
+message SyncLineupNotify {
+    LineupInfo lineup = 1;
+    repeated SyncLineupReason reason_list = 2;
+}

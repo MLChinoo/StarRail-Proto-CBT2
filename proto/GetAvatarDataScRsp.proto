@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import Avatar.proto;
+
+message GetAvatarDataScRsp {
+    uint32 retcode = 1;
+    repeated Avatar avatar_list = 2;
+    bool is_all = 3;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+message LoginActivityData {
+    uint32 id = 1;
+    uint32 login_days = 2;
+    repeated uint32 has_taken_login_activity_reward_days_list = 3;
+}

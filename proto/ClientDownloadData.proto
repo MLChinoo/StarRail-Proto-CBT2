@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+message ClientDownloadData {
+    uint32 version = 1;
+    uint32 time = 2;
+    bytes data = 3;
+}

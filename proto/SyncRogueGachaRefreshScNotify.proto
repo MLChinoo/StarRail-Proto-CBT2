@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import RogueGachaInfo.proto;
+
+message SyncRogueGachaRefreshScNotify {
+    RogueGachaInfo rogue_gacha_info = 1;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+message GetLevelRewardTakenListScRsp {
+    uint32 retcode = 1;
+    repeated uint32 taken_level_list = 2;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import RogueBuff.proto;
+
+message RogueRecord {
+    uint32 slot = 1;
+    repeated uint32 avatar_list = 2;
+    repeated RogueBuff maze_buff_list = 3;
+    string name = 4;
+    uint32 score = 5;
+}

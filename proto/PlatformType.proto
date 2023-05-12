@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+enum PlatformType {
+    EDITOR = "0";
+    IOS = "1";
+    ANDROID = "2";
+    PC = "3";
+}

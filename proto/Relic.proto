@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import RelicAffix.proto;
+
+message Relic {
+    uint32 unique_id = 1;
+    uint32 tid = 2;
+    uint32 level = 3;
+    uint32 exp = 4;
+    uint32 base_avatar_id = 5;
+    bool is_protected = 6;
+    uint32 main_affix_id = 7;
+    repeated RelicAffix sub_affix_list = 8;
+}

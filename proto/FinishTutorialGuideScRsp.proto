@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import TutorialGuide.proto;
+import ItemList.proto;
+
+message FinishTutorialGuideScRsp {
+    uint32 retcode = 1;
+    TutorialGuide tutorial_guide = 2;
+    ItemList reward = 3;
+}

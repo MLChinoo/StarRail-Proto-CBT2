@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import Mission.proto;
+
+message MissionEventSync {
+    repeated Mission mission_event_list = 1;
+    repeated uint32 finished_mission_event_id_list = 2;
+    repeated uint32 del_mission_event_id_list = 3;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+
+message GetStageDataCsReq {
+    repeated uint32 stage_id_list = 1;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import MazePropState.proto;
+import MazeGroup.proto;
+
+message GetMazeMapInfoScRsp {
+    uint32 retcode = 1;
+    uint32 entry_id = 2;
+    repeated uint32 lighten_section_list = 3;
+    repeated MazePropState maze_prop_list = 4;
+    repeated MazeGroup maze_group_list = 5;
+    uint32 opend_chest_num = 6;
+    repeated uint32 unlock_teleport_list = 7;
+}

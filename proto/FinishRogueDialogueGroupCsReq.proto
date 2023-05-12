@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+
+message FinishRogueDialogueGroupCsReq {
+    uint32 dialogue_group_id = 1;
+}

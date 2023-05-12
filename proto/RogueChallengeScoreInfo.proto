@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import RogueChallengeSpecialScore.proto;
+
+message RogueChallengeScoreInfo {
+    uint32 total_score = 1;
+    uint32 turn_score = 2;
+    uint32 damage_score = 3;
+    repeated RogueChallengeSpecialScore special_score_list = 4;
+}

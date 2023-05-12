@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import RogueAppraisalItemInfo.proto;
+
+message GetRogueAppraisalItemInfoScRsp {
+    uint32 retcode = 1;
+    RogueAppraisalItemInfo item_info = 2;
+}

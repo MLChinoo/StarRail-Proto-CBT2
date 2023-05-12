@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import MotionInfo.proto;
+
+message SceneCastSkillCsReq {
+    uint32 cast_entity_id = 1;
+    uint32 skill_index = 2;
+    uint32 ability_target_entity_id = 3;
+    repeated uint32 hit_target_entity_id_list = 4;
+    repeated uint32 assist_monster_entity_id_list = 5;
+    MotionInfo target_motion = 6;
+}

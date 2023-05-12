@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+message BuyRogueShopBuffCsReq {
+    uint32 buff_id = 1;
+    uint32 buy_count = 2;
+}

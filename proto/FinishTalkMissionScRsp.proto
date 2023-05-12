@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+message FinishTalkMissionScRsp {
+    uint32 retcode = 1;
+    string talk_str = 2;
+}

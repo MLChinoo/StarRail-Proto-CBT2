@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+message KillMonster {
+    uint32 monster_id = 1;
+    uint32 kill_num = 2;
+}

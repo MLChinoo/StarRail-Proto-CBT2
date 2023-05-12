@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+message GetAuthkeyCsReq {
+    string auth_appid = 1;
+    uint32 sign_type = 2;
+    uint32 authkey_ver = 3;
+}

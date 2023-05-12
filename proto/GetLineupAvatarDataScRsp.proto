@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import LineupAvatarData.proto;
+
+message GetLineupAvatarDataScRsp {
+    uint32 retcode = 1;
+    repeated LineupAvatarData avatar_data_list = 2;
+}

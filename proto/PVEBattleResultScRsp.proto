@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+import ItemList.proto;
+import BattleEndStatus.proto;
+
+message PVEBattleResultScRsp {
+    uint32 retcode = 1;
+    uint32 stage_id = 2;
+    uint32 cur_finish_challenge = 3;
+    ItemList drop_data = 4;
+    uint32 avatar_exp_reward = 5;
+    string bin_ver = 6;
+    string res_ver = 7;
+    uint32 battle_id = 8;
+    BattleEndStatus end_status = 9;
+    ItemList extra_drop_data = 10;
+    bool check_identical = 11;
+    uint32 event_id = 12;
+    uint32 mismatch_turn_count = 13;
+}

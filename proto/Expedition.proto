@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+message Expedition {
+    uint32 id = 1;
+    uint32 accept_time = 2;
+    uint32 duration = 3;
+    repeated uint32 avatar_id_list = 4;
+}

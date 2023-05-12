@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+
+message FinishPlotCsReq {
+    uint32 plot_id = 1;
+}
