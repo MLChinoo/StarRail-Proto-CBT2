@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import HealPoolInfo.proto;
+import "HealPoolInfo.proto";
 
 message SpringRecoverScRsp {
     uint32 retcode = 1;

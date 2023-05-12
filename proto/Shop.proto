@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import Goods.proto;
+import "Goods.proto";
 
 message Shop {
     uint32 shop_id = 1;

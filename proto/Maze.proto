@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import MazeFloor.proto;
+import "MazeFloor.proto";
 
 message Maze {
     uint32 id = 1;

@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import RogueRoomStatus.proto;
+import "RogueRoomStatus.proto";
 
 message RogueRoom {
     uint32 room_id = 1;

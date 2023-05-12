@@ -1,7 +1,7 @@
 syntax = "proto3";
 
-import RogueShopBuff.proto;
-import RogueShopItem.proto;
+import "RogueShopBuff.proto";
+import "RogueShopItem.proto";
 
 message RogueShopInfo {
     uint32 rogue_shop_id = 1;

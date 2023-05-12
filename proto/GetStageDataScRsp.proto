@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import Stage.proto;
+import "Stage.proto";
 
 message GetStageDataScRsp {
     uint32 retcode = 1;

@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import PropRogueInfo.proto;
+import "PropRogueInfo.proto";
 
 message PropExtraInfo {
     oneof info {

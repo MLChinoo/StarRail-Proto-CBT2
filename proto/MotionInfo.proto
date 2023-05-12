@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import Vector.proto;
+import "Vector.proto";
 
 message MotionInfo {
     Vector pos = 1;

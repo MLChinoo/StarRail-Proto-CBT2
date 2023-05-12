@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import ItemCostData.proto;
+import "ItemCostData.proto";
 
 message RogueShopItem {
     uint32 item_id = 1;

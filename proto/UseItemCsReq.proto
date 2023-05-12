@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import AvatarType.proto;
+import "AvatarType.proto";
 
 message UseItemCsReq {
     uint32 use_item_id = 1;

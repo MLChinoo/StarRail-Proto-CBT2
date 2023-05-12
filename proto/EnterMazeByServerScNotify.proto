@@ -1,7 +1,7 @@
 syntax = "proto3";
 
-import Maze.proto;
-import EnterMazeReason.proto;
+import "Maze.proto";
+import "EnterMazeReason.proto";
 
 message EnterMazeByServerScNotify {
     Maze maze = 1;

@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import RogueChallengeSpecialScore.proto;
+import "RogueChallengeSpecialScore.proto";
 
 message RogueChallengeScoreInfo {
     uint32 total_score = 1;

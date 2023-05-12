@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import Quest.proto;
+import "Quest.proto";
 
 message GetQuestDataScRsp {
     uint32 retcode = 1;

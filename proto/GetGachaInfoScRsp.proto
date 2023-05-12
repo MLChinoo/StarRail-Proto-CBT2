@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import GachaInfo.proto;
+import "GachaInfo.proto";
 
 message GetGachaInfoScRsp {
     uint32 retcode = 1;

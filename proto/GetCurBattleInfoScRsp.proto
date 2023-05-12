@@ -1,8 +1,8 @@
 syntax = "proto3";
 
-import BattleAvatar.proto;
-import SceneBattleInfo.proto;
-import BattleEndStatus.proto;
+import "BattleAvatar.proto";
+import "SceneBattleInfo.proto";
+import "BattleEndStatus.proto";
 
 message GetCurBattleInfoScRsp {
     uint32 retcode = 1;

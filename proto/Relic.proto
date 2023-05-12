@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import RelicAffix.proto;
+import "RelicAffix.proto";
 
 message Relic {
     uint32 unique_id = 1;

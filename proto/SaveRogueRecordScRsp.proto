@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import RogueRecord.proto;
+import "RogueRecord.proto";
 
 message SaveRogueRecordScRsp {
     uint32 retcode = 1;

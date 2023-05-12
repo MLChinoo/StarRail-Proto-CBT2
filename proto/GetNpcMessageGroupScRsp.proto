@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import MessageGroup.proto;
+import "MessageGroup.proto";
 
 message GetNpcMessageGroupScRsp {
     uint32 retcode = 1;

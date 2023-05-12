@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import DailyTask.proto;
+import "DailyTask.proto";
 
 message DailyTaskDataScNotify {
     bool is_taken_extra_reward = 1;

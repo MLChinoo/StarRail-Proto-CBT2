@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import RogueGachaGoods.proto;
+import "RogueGachaGoods.proto";
 
 message RogueGachaInfo {
     uint32 gacha_pool_id = 1;

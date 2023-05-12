@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import Expedition.proto;
+import "Expedition.proto";
 
 message AcceptExpeditionScRsp {
     uint32 retcode = 1;

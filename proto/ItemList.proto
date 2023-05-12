@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import Item.proto;
+import "Item.proto";
 
 message ItemList {
     repeated Item item_list = 1;

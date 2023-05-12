@@ -2,7 +2,7 @@ syntax = "proto3";
 
 
 enum WaypointType {
-    WAYPOINT_TYPE_NONE = "0";
-    WAYPOINT_TYPE_STAGE = "1";
-    WAYPOINT_TYPE_PLOT = "2";
+    WAYPOINT_TYPE_NONE = 0;
+    WAYPOINT_TYPE_STAGE = 1;
+    WAYPOINT_TYPE_PLOT = 2;
 }

@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import RogueBless.proto;
+import "RogueBless.proto";
 
 message RogueBlessInfo {
     repeated RogueBless bless_list = 1;

@@ -1,7 +1,7 @@
 syntax = "proto3";
 
-import ItemList.proto;
-import RogueChallengeScoreInfo.proto;
+import "ItemList.proto";
+import "RogueChallengeScoreInfo.proto";
 
 message RogueChallengeFinishInfo {
     bool is_win = 1;

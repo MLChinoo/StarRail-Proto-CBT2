@@ -1,7 +1,7 @@
 syntax = "proto3";
 
-import RogueBuff.proto;
-import RogueShopBuff.proto;
+import "RogueBuff.proto";
+import "RogueShopBuff.proto";
 
 message BuyRogueShopBuffScRsp {
     uint32 retcode = 1;

@@ -2,13 +2,13 @@ syntax = "proto3";
 
 
 enum CmdTalkEventType {
-    CmdTalkRewardTypeNone = "0";
-    CmdGetNpcTakenRewardCsReq = "2101";
-    CmdGetNpcTakenRewardScRsp = "2102";
-    CmdTakeTalkRewardCsReq = "2103";
-    CmdTakeTalkRewardScRsp = "2104";
-    CmdGetFirstTalkNpcCsReq = "2105";
-    CmdGetFirstTalkNpcScRsp = "2106";
-    CmdFinishFirstTalkNpcCsReq = "2107";
-    CmdFinishFirstTalkNpcScRsp = "2108";
+    CmdTalkRewardTypeNone = 0;
+    CmdGetNpcTakenRewardCsReq = 2101;
+    CmdGetNpcTakenRewardScRsp = 2102;
+    CmdTakeTalkRewardCsReq = 2103;
+    CmdTakeTalkRewardScRsp = 2104;
+    CmdGetFirstTalkNpcCsReq = 2105;
+    CmdGetFirstTalkNpcScRsp = 2106;
+    CmdFinishFirstTalkNpcCsReq = 2107;
+    CmdFinishFirstTalkNpcScRsp = 2108;
 }

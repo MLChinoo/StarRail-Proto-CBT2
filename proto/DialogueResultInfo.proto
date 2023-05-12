@@ -1,7 +1,7 @@
 syntax = "proto3";
 
-import ItemList.proto;
-import RogueBuffList.proto;
+import "ItemList.proto";
+import "RogueBuffList.proto";
 
 message DialogueResultInfo {
     oneof result {

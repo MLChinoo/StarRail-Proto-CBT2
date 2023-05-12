@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import RogueBlessInfo.proto;
+import "RogueBlessInfo.proto";
 
 message SyncRogueBlessScNotify {
     RogueBlessInfo bless_info = 1;

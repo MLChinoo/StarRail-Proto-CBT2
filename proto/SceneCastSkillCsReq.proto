@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import MotionInfo.proto;
+import "MotionInfo.proto";
 
 message SceneCastSkillCsReq {
     uint32 cast_entity_id = 1;

@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import PlayerBasicInfo.proto;
+import "PlayerBasicInfo.proto";
 
 message PlayerLoginScRsp {
     uint32 retcode = 1;

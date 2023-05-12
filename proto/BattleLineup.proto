@@ -1,9 +1,9 @@
 syntax = "proto3";
 
-import BattleAvatar.proto;
-import BattleMonsterWave.proto;
-import BattleBuff.proto;
-import HeroPath.proto;
+import "BattleAvatar.proto";
+import "BattleMonsterWave.proto";
+import "BattleBuff.proto";
+import "HeroPath.proto";
 
 message BattleLineup {
     repeated BattleAvatar avatar_list = 1;

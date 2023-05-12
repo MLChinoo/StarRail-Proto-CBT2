@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import LoginActivityData.proto;
+import "LoginActivityData.proto";
 
 message GetLoginActivityScRsp {
     uint32 retcode = 1;

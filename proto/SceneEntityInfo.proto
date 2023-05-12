@@ -1,10 +1,10 @@
 syntax = "proto3";
 
-import MotionInfo.proto;
-import SceneActorInfo.proto;
-import SceneNpcMonsterInfo.proto;
-import SceneNpcInfo.proto;
-import ScenePropInfo.proto;
+import "MotionInfo.proto";
+import "SceneActorInfo.proto";
+import "SceneNpcMonsterInfo.proto";
+import "SceneNpcInfo.proto";
+import "ScenePropInfo.proto";
 
 message SceneEntityInfo {
     uint32 entity_id = 1;

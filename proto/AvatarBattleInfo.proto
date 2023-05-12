@@ -1,13 +1,13 @@
 syntax = "proto3";
 
-import AvatarType.proto;
-import AvatarProperty.proto;
-import AvatarSkillTree.proto;
-import EquipmentProperty.proto;
-import AttackDamageProperty.proto;
-import SkillUseProperty.proto;
-import SpAddSource.proto;
-import BattleRelic.proto;
+import "AvatarType.proto";
+import "AvatarProperty.proto";
+import "AvatarSkillTree.proto";
+import "EquipmentProperty.proto";
+import "AttackDamageProperty.proto";
+import "SkillUseProperty.proto";
+import "SpAddSource.proto";
+import "BattleRelic.proto";
 
 message AvatarBattleInfo {
     AvatarType avatar_type = 1;

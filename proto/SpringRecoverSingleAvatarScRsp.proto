@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import AvatarType.proto;
+import "AvatarType.proto";
 
 message SpringRecoverSingleAvatarScRsp {
     uint32 retcode = 1;

@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import ExtraLineupType.proto;
+import "ExtraLineupType.proto";
 
 message SwapLineupCsReq {
     bool is_virtual = 1;

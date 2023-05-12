@@ -1,8 +1,8 @@
 syntax = "proto3";
 
-import BattleOp.proto;
-import BattleEndStatus.proto;
-import BattleStatistics.proto;
+import "BattleOp.proto";
+import "BattleEndStatus.proto";
+import "BattleStatistics.proto";
 
 message PVEBattleResultCsReq {
     uint32 stage_id = 1;

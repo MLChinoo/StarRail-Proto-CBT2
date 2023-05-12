@@ -1,7 +1,7 @@
 syntax = "proto3";
 
-import ChapterBrief.proto;
-import Waypoint.proto;
+import "ChapterBrief.proto";
+import "Waypoint.proto";
 
 message Chapter {
     ChapterBrief brief_info = 1;

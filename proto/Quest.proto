@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import QuestStatus.proto;
+import "QuestStatus.proto";
 
 message Quest {
     uint32 id = 1;

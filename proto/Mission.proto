@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import MissionStatus.proto;
+import "MissionStatus.proto";
 
 message Mission {
     uint32 id = 1;

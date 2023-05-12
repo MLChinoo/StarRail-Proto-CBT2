@@ -2,7 +2,7 @@ syntax = "proto3";
 
 
 enum WaypointUnlockType {
-    WAYPOINT_UNLOCK_NONE = "0";
-    WAYPOINT_UNLOCK_PRE = "1";
-    WAYPOINT_UNLOCK_LEVEL = "2";
+    WAYPOINT_UNLOCK_NONE = 0;
+    WAYPOINT_UNLOCK_PRE = 1;
+    WAYPOINT_UNLOCK_LEVEL = 2;
 }

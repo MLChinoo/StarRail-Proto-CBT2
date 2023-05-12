@@ -1,12 +1,12 @@
 syntax = "proto3";
 
-import BattleLineup.proto;
-import BattleOp.proto;
-import BattleCheckStrategyType.proto;
-import BattleModuleType.proto;
-import ClientTurnSnapshot.proto;
-import GamecoreConfig.proto;
-import BattleReplayStringHash.proto;
+import "BattleLineup.proto";
+import "BattleOp.proto";
+import "BattleCheckStrategyType.proto";
+import "BattleModuleType.proto";
+import "ClientTurnSnapshot.proto";
+import "GamecoreConfig.proto";
+import "BattleReplayStringHash.proto";
 
 message BattleReplay {
     uint32 version = 1;

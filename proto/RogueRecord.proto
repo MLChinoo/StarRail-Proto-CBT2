@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import RogueBuff.proto;
+import "RogueBuff.proto";
 
 message RogueRecord {
     uint32 slot = 1;

@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import AnnounceData.proto;
+import "AnnounceData.proto";
 
 message ServerAnnounceNotify {
     repeated AnnounceData announce_data_list = 1;

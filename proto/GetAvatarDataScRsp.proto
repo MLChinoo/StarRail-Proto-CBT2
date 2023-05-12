@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import Avatar.proto;
+import "Avatar.proto";
 
 message GetAvatarDataScRsp {
     uint32 retcode = 1;

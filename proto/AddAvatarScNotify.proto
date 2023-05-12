@@ -1,7 +1,7 @@
 syntax = "proto3";
 
-import ItemList.proto;
-import AddAvatarSrc.proto;
+import "ItemList.proto";
+import "AddAvatarSrc.proto";
 
 message AddAvatarScNotify {
     uint32 base_avatar_id = 1;

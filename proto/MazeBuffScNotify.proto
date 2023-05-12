@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import MazeBuffOp.proto;
+import "MazeBuffOp.proto";
 
 message MazeBuffScNotify {
     uint32 buff_id = 1;

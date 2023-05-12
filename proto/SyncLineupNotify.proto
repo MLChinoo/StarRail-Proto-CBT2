@@ -1,7 +1,7 @@
 syntax = "proto3";
 
-import LineupInfo.proto;
-import SyncLineupReason.proto;
+import "LineupInfo.proto";
+import "SyncLineupReason.proto";
 
 message SyncLineupNotify {
     LineupInfo lineup = 1;

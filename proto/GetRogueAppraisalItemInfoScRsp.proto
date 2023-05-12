@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import RogueAppraisalItemInfo.proto;
+import "RogueAppraisalItemInfo.proto";
 
 message GetRogueAppraisalItemInfoScRsp {
     uint32 retcode = 1;

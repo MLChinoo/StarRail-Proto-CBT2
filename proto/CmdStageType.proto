@@ -2,9 +2,9 @@ syntax = "proto3";
 
 
 enum CmdStageType {
-    CmdStageTypeNone = "0";
-    CmdGetStageDataCsReq = "201";
-    CmdGetStageDataScRsp = "202";
-    CmdStageBeginCsReq = "203";
-    CmdStageBeginScRsp = "204";
+    CmdStageTypeNone = 0;
+    CmdGetStageDataCsReq = 201;
+    CmdGetStageDataScRsp = 202;
+    CmdStageBeginCsReq = 203;
+    CmdStageBeginScRsp = 204;
 }

@@ -1,8 +1,8 @@
 syntax = "proto3";
 
-import Maze.proto;
-import MazeAvatar.proto;
-import MazeMission.proto;
+import "Maze.proto";
+import "MazeAvatar.proto";
+import "MazeMission.proto";
 
 message GetMazeScRsp {
     uint32 retcode = 1;

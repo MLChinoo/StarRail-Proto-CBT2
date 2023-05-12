@@ -1,9 +1,9 @@
 syntax = "proto3";
 
-import SceneMonsterWave.proto;
-import BattleAvatar.proto;
-import BattleBuff.proto;
-import HeroPath.proto;
+import "SceneMonsterWave.proto";
+import "BattleAvatar.proto";
+import "BattleBuff.proto";
+import "HeroPath.proto";
 
 message SceneBattleInfo {
     uint32 logic_random_seed = 1;

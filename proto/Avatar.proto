@@ -1,7 +1,7 @@
 syntax = "proto3";
 
-import AvatarSkillTree.proto;
-import EquipRelic.proto;
+import "AvatarSkillTree.proto";
+import "EquipRelic.proto";
 
 message Avatar {
     uint32 base_avatar_id = 1;
